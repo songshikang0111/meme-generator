@@ -1,0 +1,35 @@
+{
+  "generator": "Built-in image_gen tool",
+  "template": {
+    "id": "imgflip-322841258",
+    "title": "Anakin Padme 4 Panel",
+    "source_url": "https://imgflip.com/memetemplate/322841258",
+    "local_source": "local-meme-library/catalog/assets/imgflip-322841258.png",
+    "rights": "Source media retains the rights of its respective owners. The project MIT license does not relicense third-party meme media."
+  },
+  "images": [
+    {
+      "file": "images/hero.png",
+      "kind": "Original generated product banner",
+      "prompt": "Create a polished wide GitHub README hero banner for an open-source agent skill called MEME GENERATOR. Aspect ratio around 2.6:1, landscape, high resolution, designed to remain readable at 900px wide. Editorial comic collage, clean warm ivory background (#F6F3EB), near-black ink, acid lime accents, muted lavender and coral. Left 48%: very large perfectly legible uppercase black headline on two lines, exact text 'MEME\\nGENERATOR'. Smaller clear subtitle underneath, exact text 'Your words. The right meme.' Bottom-left three small high-contrast outlined capsule labels with exact text 'ROAST' 'FIND' 'REMIX'. Right 52%: an art-directed cluster of three overlapping meme-template cards, with crisp dark rounded borders, subtle paper shadows and small lime arrows connecting a short generic text bubble to the cards. One card contains a recognizable storytelling structure: a two-by-two comic grid, a man speaking, a woman smiling, a silent close-up of the man, then the woman questioning him. Second card shows a simple exaggerated brain progression in four rows. Third card reimagines the four-panel structure with a tabby cat and a golden retriever, making the remix idea visually obvious. Draw original, charming, expressive flat illustrations, not photo celebrity likenesses. No paragraphs, no code, no fake interface controls, no numerical metrics, no watermark. Avoid tiny illegible letters. Strong spacing, confident typography, playful but refined, a useful product banner rather than a busy meme collage."
+    },
+    {
+      "file": "images/roast-example.png",
+      "kind": "Captioned reference-image edit",
+      "reference": "../local-meme-library/catalog/assets/imgflip-322841258.png",
+      "prompt": "Add English meme subtitles to this four-panel reference image. Keep the same four shots and expressions. Use readable bold white lettering with black outline at the bottom of each panel. Upper left: '$1,000 a month in AI credits.\\nThat’s how you grow AI-native talent.' Upper right: 'So productivity goes up?' Lower left: leave blank without text. Lower right: 'Productivity goes up, right?' Keep the 2x2 square layout. No other text."
+    },
+    {
+      "file": "images/fuzzy-example.png",
+      "kind": "Captioned reference-image edit",
+      "reference": "../local-meme-library/catalog/assets/imgflip-322841258.png",
+      "prompt": "Edit this reference four-panel meme by adding clear English subtitles. Preserve the original square 2x2 photographic layout, subjects, framing and expressions. White bold sans-serif lettering with black outline at the lower edge of each relevant panel, with enough margin and natural line breaks. Top-left exact caption: 'We’re shipping on Friday.' Top-right exact caption: 'So the tests passed?' Bottom-left no caption; preserve the silent close-up. Bottom-right exact caption: 'The tests passed, right?' No other added text, no title, no extra panels. Keep the eyes and faces visible. A finished meme readable in an open-source README."
+    },
+    {
+      "file": "images/remix-example.png",
+      "kind": "Generated character replacement",
+      "reference": "images/fuzzy-example.png",
+      "prompt": "Remix the provided four-panel meme by replacing the two people with new characters while retaining the composition and all captions. Replace the man in the upper-left and lower-left panels with the same expressive brown tabby cat. Replace the woman in the upper-right and lower-right panels with the same golden retriever. Realistic animal photography with believable fur and warm daylight, humorous expressive body language, green meadow background like the source. Preserve the exact square two-by-two panel grid, the medium-shot then close-up rhythm, subject placement and the gaze directions. Top-left tabby cat makes a confident announcement. Top-right golden retriever looks cheerful and curious. Bottom-left silent close-up of the same tabby cat with an evasive deadpan stare and NO TEXT. Bottom-right golden retriever looks concerned and questioning. Keep these captions EXACTLY in readable bold white text with black outline: upper left 'We’re shipping on Friday.' upper right 'So the tests passed?' bottom right 'The tests passed, right?' No extra text, no extra characters, no new panels. The joke and panel timing must stay intact; only the cast changes."
+    }
+  ]
+}
