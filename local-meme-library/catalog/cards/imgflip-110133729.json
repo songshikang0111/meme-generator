@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-110133729",
+  "name": "spiderman pointing at spiderman",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/1tkjq9.jpg"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "110133729",
+    "page_url": "https://imgflip.com/memetemplate/110133729",
+    "retrieved_at": "2026-10-23T07:34:14.892301+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 800,
+    "height": 450,
+    "box_count": 2,
+    "captions_lifetime_estimate": 66750,
+    "rank_30d": 73,
+    "list_type": "image"
+  }
+}

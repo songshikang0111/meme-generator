@@ -1,0 +1,75 @@
+{
+  "aliases": [
+    "Corporate needs you to find the difference",
+    "Same picture"
+  ],
+  "asset": {
+    "path": "assets/imgflip-180190441.jpg",
+    "sha256": "1d5ccb28f4776f54d2e8e2fba6b8bbe6be3e695ae7fa3d91302f639addaa93c9",
+    "url": "https://i.imgflip.com/2za3u1.jpg"
+  },
+  "id": "imgflip-180190441",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "image",
+  "name": "They're The Same Picture",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/180190441",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.886818+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "180190441"
+  },
+  "stats": {
+    "box_count": 3,
+    "captions_lifetime_estimate": 191250,
+    "height": 1524,
+    "list_type": "image",
+    "rank_30d": 32,
+    "width": 1363
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "Two supposedly different things are declared identical.",
+    "visual": "Two blank sheets are displayed for comparison above. Below, an office worker responds that they are the same picture.",
+    "mechanism": "A forced comparison collapses when the observer points out that the meaningful difference is absent.",
+    "scenarios": [
+      "Compare agile iteration with daily unplanned requirement changes",
+      "Show two rebranded products with the same behavior",
+      "Compare differently named policies that have identical effects"
+    ],
+    "keywords": [
+      "equivalence",
+      "same thing",
+      "rebranding",
+      "no difference",
+      "false distinction"
+    ],
+    "emotions": [
+      "skepticism",
+      "recognition"
+    ],
+    "roles": [
+      "First sheet: first label",
+      "Second sheet: apparently different label"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Agile iteration",
+          "Changing requirements daily"
+        ],
+        "why": "The labels differ while the practical experience is the same."
+      }
+    ],
+    "avoid": [
+      "Choose a shared property the audience can recognize; explain it if the equivalence is obscure."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

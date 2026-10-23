@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-134797956",
+  "name": "American Chopper Argument",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/2896ro.jpg"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "134797956",
+    "page_url": "https://imgflip.com/memetemplate/134797956",
+    "retrieved_at": "2026-10-23T07:34:14.895753+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 640,
+    "height": 1800,
+    "box_count": 5,
+    "captions_lifetime_estimate": 191500,
+    "rank_30d": 99,
+    "list_type": "image"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "aliases": [
+    "Vanishing kid",
+    "Instant disappearance"
+  ],
+  "asset": {
+    "path": "assets/imgflip-222516354.mp4",
+    "sha256": "514679004f11f18fd07c7a3c1c22189593fb2a04ef53aba8c2399611e3d4d7a1",
+    "url": "https://i.imgflip.com/3ohapu.mp4"
+  },
+  "id": "imgflip-222516354",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "video",
+  "name": "Disappearing kid gif",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/222516354",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:16.979199+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "222516354"
+  },
+  "stats": {
+    "box_count": 1,
+    "captions_lifetime_estimate": 47250,
+    "height": 360,
+    "list_type": "gif",
+    "rank_30d": 1,
+    "width": 360
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "A boy abruptly disappears from the scene.",
+    "visual": "A short outdoor video shows a boy present in one moment and gone in the next.",
+    "mechanism": "The instant visual exit exaggerates the speed of avoiding an unwelcome request.",
+    "scenarios": [
+      "Disappear when someone asks for weekend volunteers",
+      "Leave immediately when a bill needs paying",
+      "Vanish when a conversation turns to an overdue task"
+    ],
+    "keywords": [
+      "instant exit",
+      "disappear",
+      "avoidance",
+      "unwelcome request",
+      "escape"
+    ],
+    "emotions": [
+      "avoidance",
+      "alarm"
+    ],
+    "roles": [
+      "Boy: person making an immediate exit"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Boss: who can work this weekend?\nMe:"
+        ],
+        "why": "The sudden disappearance acts as the reply."
+      }
+    ],
+    "avoid": [
+      "This is a motion template; a still frame loses the disappearance timing."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

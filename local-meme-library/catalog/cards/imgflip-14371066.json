@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-14371066",
+  "name": "Star Wars Yoda",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/8k0sa.jpg"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "14371066",
+    "page_url": "https://imgflip.com/memetemplate/14371066",
+    "retrieved_at": "2026-10-23T07:34:14.894574+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 620,
+    "height": 714,
+    "box_count": 2,
+    "captions_lifetime_estimate": 148000,
+    "rank_30d": 90,
+    "list_type": "image"
+  }
+}

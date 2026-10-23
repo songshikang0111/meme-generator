@@ -1,0 +1,1854 @@
+{
+  "evaluated_at": "2026-10-23T08:14:00.268895+00:00",
+  "semantic_corpus_hash": "d10a8ff6dd5382eac332bdfe63bd6d8a6ba865fbd3eb2e5d60b3b71ef9bade0c",
+  "note": "30张已整理素材上的编辑标注小样本；无 agent 改写，不是独立用户测试。paraphrase 在此次模型测试前冻结，regression 曾用于开发词检索。无关查询单列，仅展示近邻风险，不纳入命中率。计时区分首个请求与同进程后续请求。",
+  "metrics": {
+    "lexical": {
+      "all_relevant": {
+        "count": 30,
+        "hit_at1": 0.6,
+        "hit_at3": 0.7667,
+        "mrr_at5": 0.6667
+      },
+      "paraphrase": {
+        "count": 17,
+        "hit_at1": 0.3529,
+        "hit_at3": 0.6471,
+        "mrr_at5": 0.4706
+      },
+      "regression": {
+        "count": 12,
+        "hit_at1": 1.0,
+        "hit_at3": 1.0,
+        "mrr_at5": 1.0
+      },
+      "user-original": {
+        "count": 1,
+        "hit_at1": 0.0,
+        "hit_at3": 0.0,
+        "mrr_at5": 0.0
+      },
+      "timing": {
+        "first_request_ms": 9.03,
+        "subsequent_median_ms": 2.01
+      }
+    },
+    "semantic": {
+      "all_relevant": {
+        "count": 30,
+        "hit_at1": 0.4667,
+        "hit_at3": 0.7667,
+        "mrr_at5": 0.6139
+      },
+      "paraphrase": {
+        "count": 17,
+        "hit_at1": 0.2353,
+        "hit_at3": 0.7059,
+        "mrr_at5": 0.4657
+      },
+      "regression": {
+        "count": 12,
+        "hit_at1": 0.8333,
+        "hit_at3": 0.9167,
+        "mrr_at5": 0.875
+      },
+      "user-original": {
+        "count": 1,
+        "hit_at1": 0.0,
+        "hit_at3": 0.0,
+        "mrr_at5": 0.0
+      },
+      "timing": {
+        "first_request_ms": 6744.25,
+        "subsequent_median_ms": 13.92
+      }
+    },
+    "hybrid": {
+      "all_relevant": {
+        "count": 30,
+        "hit_at1": 0.6667,
+        "hit_at3": 0.7667,
+        "mrr_at5": 0.7206
+      },
+      "paraphrase": {
+        "count": 17,
+        "hit_at1": 0.5294,
+        "hit_at3": 0.6471,
+        "mrr_at5": 0.6049
+      },
+      "regression": {
+        "count": 12,
+        "hit_at1": 0.9167,
+        "hit_at3": 1.0,
+        "mrr_at5": 0.9444
+      },
+      "user-original": {
+        "count": 1,
+        "hit_at1": 0.0,
+        "hit_at3": 0.0,
+        "mrr_at5": 0.0
+      },
+      "timing": {
+        "first_request_ms": 22.27,
+        "subsequent_median_ms": 15.14
+      }
+    }
+  },
+  "samples": [
+    {
+      "query": "我想找一张在A B两条路中选择B的meme",
+      "relevant": [
+        "imgflip-124822590"
+      ],
+      "group": "user-original",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-87743020",
+            "imgflip-181913649",
+            "imgflip-135256802",
+            "imgflip-195515965",
+            "imgflip-252758727"
+          ],
+          "top1_name": "Two Buttons",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0,
+          "elapsed_ms": 9.03,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-84341851",
+            "imgflip-322841258",
+            "imgflip-247375501",
+            "imgflip-180190441",
+            "imgflip-87743020"
+          ],
+          "top1_name": "Evil Kermit",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0,
+          "elapsed_ms": 6744.25,
+          "top1_similarity": 0.8788
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-87743020",
+            "imgflip-180190441",
+            "imgflip-181913649",
+            "imgflip-252758727",
+            "imgflip-195515965"
+          ],
+          "top1_name": "Two Buttons",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0,
+          "elapsed_ms": 22.27,
+          "top1_similarity": 0.8744
+        }
+      }
+    },
+    {
+      "query": "线上都炸了，老板还坚持说一切正常",
+      "relevant": [
+        "imgflip-55311130"
+      ],
+      "group": "regression",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-55311130",
+            "imgflip-195515965",
+            "imgflip-97984",
+            "imgflip-171219241",
+            "imgflip-222516354"
+          ],
+          "top1_name": "This Is Fine",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 2.45,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-55311130",
+            "imgflip-1035805",
+            "imgflip-177682295",
+            "imgflip-89370399",
+            "imgflip-155067746"
+          ],
+          "top1_name": "This Is Fine",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 13.5,
+          "top1_similarity": 0.9133
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-55311130",
+            "imgflip-1035805",
+            "imgflip-89370399",
+            "imgflip-171219241",
+            "imgflip-155067746"
+          ],
+          "top1_name": "This Is Fine",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 16.57,
+          "top1_similarity": 0.9133
+        }
+      }
+    },
+    {
+      "query": "既想准点下班又想把所有功能写完，太纠结了",
+      "relevant": [
+        "imgflip-87743020"
+      ],
+      "group": "regression",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-87743020",
+            "imgflip-217743513",
+            "imgflip-112126428",
+            "imgflip-386198399",
+            "imgflip-188390779"
+          ],
+          "top1_name": "Two Buttons",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 2.53,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-124822590",
+            "imgflip-87743020",
+            "imgflip-112126428",
+            "imgflip-131940431",
+            "imgflip-195515965"
+          ],
+          "top1_name": "Left Exit 12 Off Ramp",
+          "hit1": false,
+          "hit3": true,
+          "reciprocal_rank_at5": 0.5,
+          "elapsed_ms": 15.2,
+          "top1_similarity": 0.8869
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-87743020",
+            "imgflip-112126428",
+            "imgflip-386198399",
+            "imgflip-217743513",
+            "imgflip-135256802"
+          ],
+          "top1_name": "Two Buttons",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 15.69,
+          "top1_similarity": 0.8836
+        }
+      }
+    },
+    {
+      "query": "明明是自己跳过测试，出了故障还怪框架",
+      "relevant": [
+        "imgflip-79132341"
+      ],
+      "group": "regression",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-79132341",
+            "imgflip-89370399",
+            "imgflip-155067746",
+            "imgflip-131940431",
+            "imgflip-112126428"
+          ],
+          "top1_name": "Bike Fall",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 2.1,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-79132341",
+            "imgflip-155067746",
+            "imgflip-89370399",
+            "imgflip-386198399",
+            "imgflip-226297822"
+          ],
+          "top1_name": "Bike Fall",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 13.79,
+          "top1_similarity": 0.8974
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-79132341",
+            "imgflip-155067746",
+            "imgflip-89370399",
+            "imgflip-131940431",
+            "imgflip-112126428"
+          ],
+          "top1_name": "Bike Fall",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 15.99,
+          "top1_similarity": 0.8974
+        }
+      }
+    },
+    {
+      "query": "会上提了个真正有用的建议，反而被领导赶出去了",
+      "relevant": [
+        "imgflip-1035805"
+      ],
+      "group": "regression",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-1035805",
+            "imgflip-222516354",
+            "imgflip-171219241",
+            "imgflip-188390779",
+            "imgflip-252758727"
+          ],
+          "top1_name": "Boardroom Meeting Suggestion",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 2.17,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-1035805",
+            "imgflip-322841258",
+            "imgflip-171219241",
+            "imgflip-177682295",
+            "imgflip-89370399"
+          ],
+          "top1_name": "Boardroom Meeting Suggestion",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 14.05,
+          "top1_similarity": 0.905
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-1035805",
+            "imgflip-171219241",
+            "imgflip-252758727",
+            "imgflip-222516354",
+            "imgflip-188390779"
+          ],
+          "top1_name": "Boardroom Meeting Suggestion",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 16.11,
+          "top1_similarity": 0.905
+        }
+      }
+    },
+    {
+      "query": "同事都在吐槽加班费太少，我一分钱都没有",
+      "relevant": [
+        "imgflip-177682295"
+      ],
+      "group": "regression",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-177682295",
+            "imgflip-135256802",
+            "imgflip-89370399",
+            "imgflip-171219241",
+            "imgflip-217743513"
+          ],
+          "top1_name": "You Guys are Getting Paid",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 1.97,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-177682295",
+            "imgflip-155067746",
+            "imgflip-79132341",
+            "imgflip-55311130",
+            "imgflip-1035805"
+          ],
+          "top1_name": "You Guys are Getting Paid",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 13.56,
+          "top1_similarity": 0.905
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-177682295",
+            "imgflip-217743513",
+            "imgflip-304768047",
+            "imgflip-171219241",
+            "imgflip-135256802"
+          ],
+          "top1_name": "You Guys are Getting Paid",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 14.62,
+          "top1_similarity": 0.905
+        }
+      }
+    },
+    {
+      "query": "本来有好用的工具，非要再造一套更复杂的",
+      "relevant": [
+        "imgflip-181913649",
+        "imgflip-93895088"
+      ],
+      "group": "regression",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-181913649",
+            "imgflip-93895088",
+            "imgflip-124822590",
+            "imgflip-135256802"
+          ],
+          "top1_name": "Drake Hotline Bling",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 1.85,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-89370399",
+            "imgflip-55311130",
+            "imgflip-252758727",
+            "imgflip-135256802",
+            "imgflip-124822590"
+          ],
+          "top1_name": "Roll Safe Think About It",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0,
+          "elapsed_ms": 15.77,
+          "top1_similarity": 0.8735
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-124822590",
+            "imgflip-135256802",
+            "imgflip-93895088",
+            "imgflip-181913649",
+            "imgflip-89370399"
+          ],
+          "top1_name": "Left Exit 12 Off Ramp",
+          "hit1": false,
+          "hit3": true,
+          "reciprocal_rank_at5": 0.3333333333333333,
+          "elapsed_ms": 14.61,
+          "top1_similarity": 0.87
+        }
+      }
+    },
+    {
+      "query": "明知不写测试会上线出错，还表现得特别惊讶",
+      "relevant": [
+        "imgflip-155067746"
+      ],
+      "group": "regression",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-155067746",
+            "imgflip-89370399",
+            "imgflip-84341851",
+            "imgflip-177682295",
+            "imgflip-4087833"
+          ],
+          "top1_name": "Surprised Pikachu",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 2.07,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-155067746",
+            "imgflip-89370399",
+            "imgflip-226297822",
+            "imgflip-131940431",
+            "imgflip-386198399"
+          ],
+          "top1_name": "Surprised Pikachu",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 13.77,
+          "top1_similarity": 0.9124
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-155067746",
+            "imgflip-89370399",
+            "imgflip-226297822",
+            "imgflip-386198399",
+            "imgflip-84341851"
+          ],
+          "top1_name": "Surprised Pikachu",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 18.4,
+          "top1_similarity": 0.9124
+        }
+      }
+    },
+    {
+      "query": "小问题越设计越复杂，最后成立专门委员会",
+      "relevant": [
+        "imgflip-93895088"
+      ],
+      "group": "regression",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-93895088",
+            "imgflip-89370399",
+            "imgflip-1035805",
+            "imgflip-181913649",
+            "imgflip-252758727"
+          ],
+          "top1_name": "Expanding Brain",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 3.55,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-93895088",
+            "imgflip-1035805",
+            "imgflip-135256802",
+            "imgflip-180190441",
+            "imgflip-252758727"
+          ],
+          "top1_name": "Expanding Brain",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 13.8,
+          "top1_similarity": 0.8801
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-93895088",
+            "imgflip-1035805",
+            "imgflip-89370399",
+            "imgflip-252758727",
+            "imgflip-177682295"
+          ],
+          "top1_name": "Expanding Brain",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 14.09,
+          "top1_similarity": 0.8801
+        }
+      }
+    },
+    {
+      "query": "甲方说马上回我消息，我等到天荒地老",
+      "relevant": [
+        "imgflip-4087833"
+      ],
+      "group": "regression",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-4087833",
+            "imgflip-386198399",
+            "imgflip-252600902",
+            "imgflip-80707627",
+            "imgflip-177682295"
+          ],
+          "top1_name": "Waiting Skeleton",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 2.32,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-4087833",
+            "imgflip-155067746",
+            "imgflip-171219241",
+            "imgflip-386198399",
+            "imgflip-226297822"
+          ],
+          "top1_name": "Waiting Skeleton",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 13.4,
+          "top1_similarity": 0.8885
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-4087833",
+            "imgflip-386198399",
+            "imgflip-226297822",
+            "imgflip-252600902",
+            "imgflip-177682295"
+          ],
+          "top1_name": "Waiting Skeleton",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 14.54,
+          "top1_similarity": 0.8885
+        }
+      }
+    },
+    {
+      "query": "两个产品改个名字其实完全一样",
+      "relevant": [
+        "imgflip-180190441"
+      ],
+      "group": "regression",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-180190441",
+            "imgflip-252600902",
+            "imgflip-87743020",
+            "imgflip-177682295",
+            "imgflip-217743513"
+          ],
+          "top1_name": "They're The Same Picture",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 1.87,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-180190441",
+            "imgflip-84341851",
+            "imgflip-135256802",
+            "imgflip-87743020",
+            "imgflip-181913649"
+          ],
+          "top1_name": "They're The Same Picture",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 12.74,
+          "top1_similarity": 0.9104
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-180190441",
+            "imgflip-87743020",
+            "imgflip-252600902",
+            "imgflip-188390779",
+            "imgflip-177682295"
+          ],
+          "top1_name": "They're The Same Picture",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 13.64,
+          "top1_similarity": 0.9104
+        }
+      }
+    },
+    {
+      "query": "服务出事了，幸亏还有备份，结果发现备份也坏了",
+      "relevant": [
+        "imgflip-226297822"
+      ],
+      "group": "regression",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-226297822",
+            "imgflip-155067746",
+            "imgflip-177682295",
+            "imgflip-79132341",
+            "imgflip-131940431"
+          ],
+          "top1_name": "Panik Kalm Panik",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 2.01,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-226297822",
+            "imgflip-155067746",
+            "imgflip-79132341",
+            "imgflip-89370399",
+            "imgflip-252600902"
+          ],
+          "top1_name": "Panik Kalm Panik",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 17.62,
+          "top1_similarity": 0.9005
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-226297822",
+            "imgflip-155067746",
+            "imgflip-79132341",
+            "imgflip-131940431",
+            "imgflip-252600902"
+          ],
+          "top1_name": "Panik Kalm Panik",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 14.92,
+          "top1_similarity": 0.9005
+        }
+      }
+    },
+    {
+      "query": "I blame the framework after disabling all tests",
+      "relevant": [
+        "imgflip-79132341"
+      ],
+      "group": "regression",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-79132341",
+            "imgflip-247375501",
+            "imgflip-181913649",
+            "imgflip-97984",
+            "imgflip-180190441"
+          ],
+          "top1_name": "Bike Fall",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 1.88,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-79132341",
+            "imgflip-89370399",
+            "imgflip-155067746",
+            "imgflip-131940431",
+            "imgflip-55311130"
+          ],
+          "top1_name": "Bike Fall",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 13.5,
+          "top1_similarity": 0.8181
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-79132341",
+            "imgflip-180190441",
+            "imgflip-181913649",
+            "imgflip-322841258",
+            "imgflip-247375501"
+          ],
+          "top1_name": "Bike Fall",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 14.06,
+          "top1_similarity": 0.8181
+        }
+      }
+    },
+    {
+      "query": "嘴上说要早点睡，看到游戏邀请立刻把承诺抛到脑后",
+      "relevant": [
+        "imgflip-84341851",
+        "imgflip-124822590",
+        "imgflip-112126428"
+      ],
+      "group": "paraphrase",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-80707627",
+            "imgflip-222516354",
+            "imgflip-181913649",
+            "imgflip-4087833",
+            "imgflip-386198399"
+          ],
+          "top1_name": "Sad Pablo Escobar",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0,
+          "elapsed_ms": 2.09,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-131940431",
+            "imgflip-177682295",
+            "imgflip-4087833",
+            "imgflip-195515965",
+            "imgflip-252600902"
+          ],
+          "top1_name": "Gru's Plan",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0,
+          "elapsed_ms": 14.07,
+          "top1_similarity": 0.8926
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-4087833",
+            "imgflip-222516354",
+            "imgflip-112126428",
+            "imgflip-80707627",
+            "imgflip-181913649"
+          ],
+          "top1_name": "Waiting Skeleton",
+          "hit1": false,
+          "hit3": true,
+          "reciprocal_rank_at5": 0.3333333333333333,
+          "elapsed_ms": 15.14,
+          "top1_similarity": 0.889
+        }
+      }
+    },
+    {
+      "query": "每次都说马上给反馈，结果拖了半个月",
+      "relevant": [
+        "imgflip-4087833"
+      ],
+      "group": "paraphrase",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-131940431",
+            "imgflip-226297822",
+            "imgflip-155067746",
+            "imgflip-217743513"
+          ],
+          "top1_name": "Gru's Plan",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0,
+          "elapsed_ms": 1.77,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-195515965",
+            "imgflip-131940431",
+            "imgflip-79132341",
+            "imgflip-155067746",
+            "imgflip-252600902"
+          ],
+          "top1_name": "Clown Applying Makeup",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0,
+          "elapsed_ms": 13.44,
+          "top1_similarity": 0.8909
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-131940431",
+            "imgflip-155067746",
+            "imgflip-226297822",
+            "imgflip-217743513",
+            "imgflip-195515965"
+          ],
+          "top1_name": "Gru's Plan",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0,
+          "elapsed_ms": 15.86,
+          "top1_similarity": 0.883
+        }
+      }
+    },
+    {
+      "query": "我给自己挖了坑，最后又埋怨环境不好",
+      "relevant": [
+        "imgflip-79132341"
+      ],
+      "group": "paraphrase",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-131940431",
+            "imgflip-177682295",
+            "imgflip-79132341",
+            "imgflip-226297822",
+            "imgflip-195515965"
+          ],
+          "top1_name": "Gru's Plan",
+          "hit1": false,
+          "hit3": true,
+          "reciprocal_rank_at5": 0.3333333333333333,
+          "elapsed_ms": 2.03,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-252758727",
+            "imgflip-79132341",
+            "imgflip-131940431",
+            "imgflip-195515965",
+            "imgflip-155067746"
+          ],
+          "top1_name": "Mother Ignoring Kid Drowning In A Pool",
+          "hit1": false,
+          "hit3": true,
+          "reciprocal_rank_at5": 0.5,
+          "elapsed_ms": 13.97,
+          "top1_similarity": 0.8875
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-131940431",
+            "imgflip-79132341",
+            "imgflip-195515965",
+            "imgflip-226297822",
+            "imgflip-84341851"
+          ],
+          "top1_name": "Gru's Plan",
+          "hit1": false,
+          "hit3": true,
+          "reciprocal_rank_at5": 0.5,
+          "elapsed_ms": 17.33,
+          "top1_similarity": 0.8778
+        }
+      }
+    },
+    {
+      "query": "我认真说了半天，对面和没听见一样",
+      "relevant": [
+        "imgflip-304768047"
+      ],
+      "group": "paraphrase",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-304768047",
+            "imgflip-180190441",
+            "imgflip-188390779"
+          ],
+          "top1_name": "talking to wall",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 1.61,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-304768047",
+            "imgflip-252600902",
+            "imgflip-177682295",
+            "imgflip-155067746",
+            "imgflip-55311130"
+          ],
+          "top1_name": "talking to wall",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 13.34,
+          "top1_similarity": 0.8886
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-304768047",
+            "imgflip-188390779",
+            "imgflip-180190441",
+            "imgflip-252600902",
+            "imgflip-177682295"
+          ],
+          "top1_name": "talking to wall",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 14.29,
+          "top1_similarity": 0.8886
+        }
+      }
+    },
+    {
+      "query": "一个人兴高采烈讲计划，另一个人逐渐发现事情不对劲",
+      "relevant": [
+        "imgflip-322841258"
+      ],
+      "group": "paraphrase",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-252600902",
+            "imgflip-131940431",
+            "imgflip-93895088",
+            "imgflip-124822590",
+            "imgflip-195515965"
+          ],
+          "top1_name": "Always Has Been",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0,
+          "elapsed_ms": 2.12,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-131940431",
+            "imgflip-252600902",
+            "imgflip-322841258",
+            "imgflip-79132341",
+            "imgflip-93895088"
+          ],
+          "top1_name": "Gru's Plan",
+          "hit1": false,
+          "hit3": true,
+          "reciprocal_rank_at5": 0.3333333333333333,
+          "elapsed_ms": 14.27,
+          "top1_similarity": 0.8894
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-131940431",
+            "imgflip-252600902",
+            "imgflip-93895088",
+            "imgflip-124822590",
+            "imgflip-322841258"
+          ],
+          "top1_name": "Gru's Plan",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0.2,
+          "elapsed_ms": 16.58,
+          "top1_similarity": 0.8894
+        }
+      }
+    },
+    {
+      "query": "大家都在晒补贴，而我连工资都没有",
+      "relevant": [
+        "imgflip-177682295"
+      ],
+      "group": "paraphrase",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-177682295",
+            "imgflip-89370399",
+            "imgflip-304768047",
+            "imgflip-80707627"
+          ],
+          "top1_name": "You Guys are Getting Paid",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 1.79,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-177682295",
+            "imgflip-55311130",
+            "imgflip-195515965",
+            "imgflip-322841258",
+            "imgflip-131940431"
+          ],
+          "top1_name": "You Guys are Getting Paid",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 12.75,
+          "top1_similarity": 0.8849
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-177682295",
+            "imgflip-89370399",
+            "imgflip-80707627",
+            "imgflip-304768047",
+            "imgflip-55311130"
+          ],
+          "top1_name": "You Guys are Getting Paid",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 13.68,
+          "top1_similarity": 0.8849
+        }
+      }
+    },
+    {
+      "query": "谁有空来干活这句话一出我就悄悄退出群聊",
+      "relevant": [
+        "imgflip-222516354",
+        "imgflip-171219241"
+      ],
+      "group": "paraphrase",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-97984",
+            "imgflip-171219241",
+            "imgflip-131940431"
+          ],
+          "top1_name": "Disaster Girl",
+          "hit1": false,
+          "hit3": true,
+          "reciprocal_rank_at5": 0.5,
+          "elapsed_ms": 1.7,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-177682295",
+            "imgflip-386198399",
+            "imgflip-155067746",
+            "imgflip-171219241",
+            "imgflip-1035805"
+          ],
+          "top1_name": "You Guys are Getting Paid",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0.25,
+          "elapsed_ms": 16.9,
+          "top1_similarity": 0.8851
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-171219241",
+            "imgflip-97984",
+            "imgflip-131940431",
+            "imgflip-177682295",
+            "imgflip-386198399"
+          ],
+          "top1_name": "Homer disappears into bush",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 14.24,
+          "top1_similarity": 0.8773
+        }
+      }
+    },
+    {
+      "query": "两个人明明职业不同，却对同一件事深恶痛绝",
+      "relevant": [
+        "imgflip-135256802"
+      ],
+      "group": "paraphrase",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-180190441",
+            "imgflip-188390779",
+            "imgflip-87743020",
+            "imgflip-247375501",
+            "imgflip-217743513"
+          ],
+          "top1_name": "They're The Same Picture",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0,
+          "elapsed_ms": 2.01,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-180190441",
+            "imgflip-252600902",
+            "imgflip-177682295",
+            "imgflip-252758727",
+            "imgflip-195515965"
+          ],
+          "top1_name": "They're The Same Picture",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0,
+          "elapsed_ms": 16.66,
+          "top1_similarity": 0.8897
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-180190441",
+            "imgflip-188390779",
+            "imgflip-87743020",
+            "imgflip-252600902",
+            "imgflip-247375501"
+          ],
+          "top1_name": "They're The Same Picture",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0,
+          "elapsed_ms": 19.57,
+          "top1_similarity": 0.8897
+        }
+      }
+    },
+    {
+      "query": "看着别人倒霉，自己在旁边暗爽",
+      "relevant": [
+        "imgflip-97984"
+      ],
+      "group": "paraphrase",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-79132341",
+            "imgflip-177682295",
+            "imgflip-97984",
+            "imgflip-131940431",
+            "imgflip-4087833"
+          ],
+          "top1_name": "Bike Fall",
+          "hit1": false,
+          "hit3": true,
+          "reciprocal_rank_at5": 0.3333333333333333,
+          "elapsed_ms": 2.06,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-55311130",
+            "imgflip-97984",
+            "imgflip-84341851",
+            "imgflip-386198399",
+            "imgflip-80707627"
+          ],
+          "top1_name": "This Is Fine",
+          "hit1": false,
+          "hit3": true,
+          "reciprocal_rank_at5": 0.5,
+          "elapsed_ms": 13.79,
+          "top1_similarity": 0.8854
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-97984",
+            "imgflip-79132341",
+            "imgflip-84341851",
+            "imgflip-80707627",
+            "imgflip-131940431"
+          ],
+          "top1_name": "Disaster Girl",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 14.33,
+          "top1_similarity": 0.882
+        }
+      }
+    },
+    {
+      "query": "同一个需求换了包装又卖给我一次",
+      "relevant": [
+        "imgflip-180190441"
+      ],
+      "group": "paraphrase",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-180190441",
+            "imgflip-247375501",
+            "imgflip-135256802",
+            "imgflip-93895088",
+            "imgflip-188390779"
+          ],
+          "top1_name": "They're The Same Picture",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 2.01,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-180190441",
+            "imgflip-112126428",
+            "imgflip-124822590",
+            "imgflip-135256802",
+            "imgflip-87743020"
+          ],
+          "top1_name": "They're The Same Picture",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 14.15,
+          "top1_similarity": 0.8874
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-180190441",
+            "imgflip-135256802",
+            "imgflip-87743020",
+            "imgflip-247375501",
+            "imgflip-217743513"
+          ],
+          "top1_name": "They're The Same Picture",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 15.68,
+          "top1_similarity": 0.8874
+        }
+      }
+    },
+    {
+      "query": "每一步我都觉得自己很聪明，最后才发现是个笑话",
+      "relevant": [
+        "imgflip-195515965",
+        "imgflip-93895088"
+      ],
+      "group": "paraphrase",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-252600902",
+            "imgflip-177682295",
+            "imgflip-195515965",
+            "imgflip-131940431",
+            "imgflip-226297822"
+          ],
+          "top1_name": "Always Has Been",
+          "hit1": false,
+          "hit3": true,
+          "reciprocal_rank_at5": 0.3333333333333333,
+          "elapsed_ms": 2.48,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-89370399",
+            "imgflip-93895088",
+            "imgflip-131940431",
+            "imgflip-252600902",
+            "imgflip-155067746"
+          ],
+          "top1_name": "Roll Safe Think About It",
+          "hit1": false,
+          "hit3": true,
+          "reciprocal_rank_at5": 0.5,
+          "elapsed_ms": 14.64,
+          "top1_similarity": 0.8876
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-252600902",
+            "imgflip-89370399",
+            "imgflip-131940431",
+            "imgflip-195515965",
+            "imgflip-177682295"
+          ],
+          "top1_name": "Always Has Been",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0.25,
+          "elapsed_ms": 18.03,
+          "top1_similarity": 0.8867
+        }
+      }
+    },
+    {
+      "query": "原来所谓的新技术从一开始就只是人工",
+      "relevant": [
+        "imgflip-252600902"
+      ],
+      "group": "paraphrase",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-252600902",
+            "imgflip-177682295",
+            "imgflip-180190441",
+            "imgflip-222516354",
+            "imgflip-124822590"
+          ],
+          "top1_name": "Always Has Been",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 2.04,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-252600902",
+            "imgflip-93895088",
+            "imgflip-180190441",
+            "imgflip-89370399",
+            "imgflip-177682295"
+          ],
+          "top1_name": "Always Has Been",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 13.33,
+          "top1_similarity": 0.8754
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-252600902",
+            "imgflip-180190441",
+            "imgflip-177682295",
+            "imgflip-112126428",
+            "imgflip-124822590"
+          ],
+          "top1_name": "Always Has Been",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 14.95,
+          "top1_similarity": 0.8754
+        }
+      }
+    },
+    {
+      "query": "服务器倒了，幸好存档还在，存档也没法恢复",
+      "relevant": [
+        "imgflip-226297822"
+      ],
+      "group": "paraphrase",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-155067746",
+            "imgflip-226297822"
+          ],
+          "top1_name": "Surprised Pikachu",
+          "hit1": false,
+          "hit3": true,
+          "reciprocal_rank_at5": 0.5,
+          "elapsed_ms": 1.5,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-79132341",
+            "imgflip-226297822",
+            "imgflip-252600902",
+            "imgflip-386198399",
+            "imgflip-155067746"
+          ],
+          "top1_name": "Bike Fall",
+          "hit1": false,
+          "hit3": true,
+          "reciprocal_rank_at5": 0.5,
+          "elapsed_ms": 14.8,
+          "top1_similarity": 0.8854
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-226297822",
+            "imgflip-155067746",
+            "imgflip-79132341",
+            "imgflip-252600902",
+            "imgflip-386198399"
+          ],
+          "top1_name": "Panik Kalm Panik",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 16.34,
+          "top1_similarity": 0.8847
+        }
+      }
+    },
+    {
+      "query": "以前豪言壮语，现在怂得不行",
+      "relevant": [
+        "imgflip-247375501"
+      ],
+      "group": "paraphrase",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-247375501",
+            "imgflip-181913649",
+            "imgflip-97984",
+            "imgflip-217743513",
+            "imgflip-84341851"
+          ],
+          "top1_name": "Buff Doge vs. Cheems",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 2.04,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-252600902",
+            "imgflip-79132341",
+            "imgflip-247375501",
+            "imgflip-171219241",
+            "imgflip-84341851"
+          ],
+          "top1_name": "Always Has Been",
+          "hit1": false,
+          "hit3": true,
+          "reciprocal_rank_at5": 0.3333333333333333,
+          "elapsed_ms": 13.87,
+          "top1_similarity": 0.8771
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-247375501",
+            "imgflip-84341851",
+            "imgflip-217743513",
+            "imgflip-97984",
+            "imgflip-181913649"
+          ],
+          "top1_name": "Buff Doge vs. Cheems",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 15.14,
+          "top1_similarity": 0.8707
+        }
+      }
+    },
+    {
+      "query": "只要我什么都不做，就不会出任何差错",
+      "relevant": [
+        "imgflip-89370399"
+      ],
+      "group": "paraphrase",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-89370399",
+            "imgflip-217743513",
+            "imgflip-80707627",
+            "imgflip-181913649",
+            "imgflip-87743020"
+          ],
+          "top1_name": "Roll Safe Think About It",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 2.02,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-79132341",
+            "imgflip-89370399",
+            "imgflip-112126428",
+            "imgflip-195515965",
+            "imgflip-131940431"
+          ],
+          "top1_name": "Bike Fall",
+          "hit1": false,
+          "hit3": true,
+          "reciprocal_rank_at5": 0.5,
+          "elapsed_ms": 13.55,
+          "top1_similarity": 0.8796
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-89370399",
+            "imgflip-217743513",
+            "imgflip-181913649",
+            "imgflip-252758727",
+            "imgflip-80707627"
+          ],
+          "top1_name": "Roll Safe Think About It",
+          "hit1": true,
+          "hit3": true,
+          "reciprocal_rank_at5": 1.0,
+          "elapsed_ms": 14.19,
+          "top1_similarity": 0.8736
+        }
+      }
+    },
+    {
+      "query": "领导围着一个新东西转，老系统已经烂到没人管",
+      "relevant": [
+        "imgflip-252758727"
+      ],
+      "group": "paraphrase",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-252600902",
+            "imgflip-386198399",
+            "imgflip-93895088",
+            "imgflip-80707627",
+            "imgflip-188390779"
+          ],
+          "top1_name": "Always Has Been",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0,
+          "elapsed_ms": 2.11,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-252600902",
+            "imgflip-79132341",
+            "imgflip-1035805",
+            "imgflip-155067746",
+            "imgflip-55311130"
+          ],
+          "top1_name": "Always Has Been",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0,
+          "elapsed_ms": 14.18,
+          "top1_similarity": 0.8883
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-252600902",
+            "imgflip-386198399",
+            "imgflip-55311130",
+            "imgflip-171219241",
+            "imgflip-1035805"
+          ],
+          "top1_name": "Always Has Been",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0,
+          "elapsed_ms": 17.66,
+          "top1_similarity": 0.8883
+        }
+      }
+    },
+    {
+      "query": "I want the meme about swerving towards option B instead of A",
+      "relevant": [
+        "imgflip-124822590"
+      ],
+      "group": "paraphrase",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-180190441",
+            "imgflip-89370399",
+            "imgflip-322841258",
+            "imgflip-252758727",
+            "imgflip-135256802"
+          ],
+          "top1_name": "They're The Same Picture",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0,
+          "elapsed_ms": 1.92,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-180190441",
+            "imgflip-124822590",
+            "imgflip-247375501",
+            "imgflip-322841258",
+            "imgflip-195515965"
+          ],
+          "top1_name": "They're The Same Picture",
+          "hit1": false,
+          "hit3": true,
+          "reciprocal_rank_at5": 0.5,
+          "elapsed_ms": 14.26,
+          "top1_similarity": 0.8141
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-180190441",
+            "imgflip-322841258",
+            "imgflip-89370399",
+            "imgflip-252758727",
+            "imgflip-87743020"
+          ],
+          "top1_name": "They're The Same Picture",
+          "hit1": false,
+          "hit3": false,
+          "reciprocal_rank_at5": 0,
+          "elapsed_ms": 15.26,
+          "top1_similarity": 0.8141
+        }
+      }
+    },
+    {
+      "query": "我想知道明天台北的天气",
+      "relevant": [],
+      "group": "unrelated",
+      "modes": {
+        "lexical": {
+          "top5": [
+            "imgflip-80707627"
+          ],
+          "top1_name": "Sad Pablo Escobar",
+          "hit1": null,
+          "hit3": null,
+          "reciprocal_rank_at5": null,
+          "elapsed_ms": 1.24,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-124822590",
+            "imgflip-55311130",
+            "imgflip-155067746",
+            "imgflip-252600902",
+            "imgflip-386198399"
+          ],
+          "top1_name": "Left Exit 12 Off Ramp",
+          "hit1": null,
+          "hit3": null,
+          "reciprocal_rank_at5": null,
+          "elapsed_ms": 17.29,
+          "top1_similarity": 0.8506
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-80707627",
+            "imgflip-124822590",
+            "imgflip-55311130",
+            "imgflip-155067746",
+            "imgflip-252600902"
+          ],
+          "top1_name": "Sad Pablo Escobar",
+          "hit1": null,
+          "hit3": null,
+          "reciprocal_rank_at5": null,
+          "elapsed_ms": 13.38,
+          "top1_similarity": 0.8337
+        }
+      }
+    },
+    {
+      "query": "教我怎么煮番茄鸡蛋面",
+      "relevant": [],
+      "group": "unrelated",
+      "modes": {
+        "lexical": {
+          "top5": [],
+          "top1_name": null,
+          "hit1": null,
+          "hit3": null,
+          "reciprocal_rank_at5": null,
+          "elapsed_ms": 0.95,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-322841258",
+            "imgflip-124822590",
+            "imgflip-180190441",
+            "imgflip-55311130",
+            "imgflip-79132341"
+          ],
+          "top1_name": "Anakin Padme 4 Panel",
+          "hit1": null,
+          "hit3": null,
+          "reciprocal_rank_at5": null,
+          "elapsed_ms": 13.13,
+          "top1_similarity": 0.8335
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-322841258",
+            "imgflip-124822590",
+            "imgflip-180190441",
+            "imgflip-55311130",
+            "imgflip-79132341"
+          ],
+          "top1_name": "Anakin Padme 4 Panel",
+          "hit1": null,
+          "hit3": null,
+          "reciprocal_rank_at5": null,
+          "elapsed_ms": 13.56,
+          "top1_similarity": 0.8335
+        }
+      }
+    },
+    {
+      "query": "帮我查一下最近的银行在哪里",
+      "relevant": [],
+      "group": "unrelated",
+      "modes": {
+        "lexical": {
+          "top5": [],
+          "top1_name": null,
+          "hit1": null,
+          "hit3": null,
+          "reciprocal_rank_at5": null,
+          "elapsed_ms": 0.96,
+          "top1_similarity": null
+        },
+        "semantic": {
+          "top5": [
+            "imgflip-124822590",
+            "imgflip-252600902",
+            "imgflip-55311130",
+            "imgflip-177682295",
+            "imgflip-155067746"
+          ],
+          "top1_name": "Left Exit 12 Off Ramp",
+          "hit1": null,
+          "hit3": null,
+          "reciprocal_rank_at5": null,
+          "elapsed_ms": 15.72,
+          "top1_similarity": 0.8623
+        },
+        "hybrid": {
+          "top5": [
+            "imgflip-124822590",
+            "imgflip-252600902",
+            "imgflip-55311130",
+            "imgflip-177682295",
+            "imgflip-155067746"
+          ],
+          "top1_name": "Left Exit 12 Off Ramp",
+          "hit1": null,
+          "hit3": null,
+          "reciprocal_rank_at5": null,
+          "elapsed_ms": 17.29,
+          "top1_similarity": 0.8623
+        }
+      }
+    }
+  ]
+}

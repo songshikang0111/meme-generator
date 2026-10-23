@@ -1,0 +1,8 @@
+# CPU PyTorch is installed separately by scripts/setup_embeddings.sh.
+sentence-transformers==6.2.0
+sentencepiece==0.2.2
+pillow==13.0.0
+numpy==2.5.4
+transformers==5.20.2
+huggingface-hub==2.2.0
+socksio>=1.0,<2

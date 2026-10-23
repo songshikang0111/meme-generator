@@ -1,0 +1,77 @@
+{
+  "aliases": [
+    "Distracted man",
+    "New temptation"
+  ],
+  "asset": {
+    "path": "assets/imgflip-112126428.jpg",
+    "sha256": "4b498053b2748b2b6e5cce79d84b5c0ed060ad4edcc90c62ba08f3cb8eb13796",
+    "url": "https://i.imgflip.com/1ur9b0.jpg"
+  },
+  "id": "imgflip-112126428",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "image",
+  "name": "Distracted Boyfriend",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/112126428",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.882786+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "112126428"
+  },
+  "stats": {
+    "box_count": 3,
+    "captions_lifetime_estimate": 1201250,
+    "height": 800,
+    "list_type": "image",
+    "rank_30d": 3,
+    "width": 1200
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "A man turns toward a new attraction while his current partner looks offended.",
+    "visual": "A man in a blue plaid shirt looks back at a woman in red. The woman walking beside him reacts with disbelief.",
+    "mechanism": "Labeling people as priorities turns a familiar relationship scene into a joke about abandoning an existing commitment for something new.",
+    "scenarios": [
+      "Get excited about a new framework before finishing the current project",
+      "Buy another book while unread books pile up",
+      "Chase a new hobby while neglecting an established one"
+    ],
+    "keywords": [
+      "distraction",
+      "temptation",
+      "novelty",
+      "unfinished work",
+      "competing priorities"
+    ],
+    "emotions": [
+      "desire",
+      "disapproval"
+    ],
+    "roles": [
+      "Woman in red: new attraction",
+      "Man: tempted person or group",
+      "Partner beside him: existing commitment"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "New framework",
+          "Me",
+          "Unfinished project"
+        ],
+        "why": "The new tool gets attention while the existing work is neglected."
+      }
+    ],
+    "avoid": [
+      "The labels must distinguish the new attraction from the existing commitment."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

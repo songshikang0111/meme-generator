@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-373996592",
+  "name": "Bateman walking",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/66o1m8.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "373996592",
+    "page_url": "https://imgflip.com/memetemplate/373996592",
+    "retrieved_at": "2026-10-23T07:34:16.983605+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 498,
+    "height": 390,
+    "box_count": 1,
+    "captions_lifetime_estimate": 14000,
+    "rank_30d": 31,
+    "list_type": "gif"
+  }
+}

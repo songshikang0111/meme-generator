@@ -1,0 +1,77 @@
+{
+  "aliases": [
+    "Stick in bicycle wheel",
+    "Self-inflicted bike crash"
+  ],
+  "asset": {
+    "path": "assets/imgflip-79132341.jpg",
+    "sha256": "b1713b1a8c83f366cab5b4e4ccd4f4b51a1c71cba5d71708bc10faf36ef06d4c",
+    "url": "https://i.imgflip.com/1b42wl.jpg"
+  },
+  "id": "imgflip-79132341",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "image",
+  "name": "Bike Fall",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/79132341",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.886066+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "79132341"
+  },
+  "stats": {
+    "box_count": 3,
+    "captions_lifetime_estimate": 148750,
+    "height": 680,
+    "list_type": "image",
+    "rank_30d": 26,
+    "width": 500
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "A cyclist causes their own crash and then blames someone else.",
+    "visual": "Three panels show a cyclist riding, inserting a stick into the front wheel, then lying on the ground beside the fallen bicycle.",
+    "mechanism": "The visible chain of self-sabotage contradicts the final complaint, exposing blame shifting.",
+    "scenarios": [
+      "Disable all tests and blame the framework for a broken release",
+      "Ignore maintenance and accuse the tool of being unreliable",
+      "Break a workflow with a shortcut and complain about its design"
+    ],
+    "keywords": [
+      "self inflicted",
+      "self sabotage",
+      "blame others",
+      "avoidable failure",
+      "hypocrisy"
+    ],
+    "emotions": [
+      "frustration",
+      "denial"
+    ],
+    "roles": [
+      "Panel 1: working situation",
+      "Panel 2: self-inflicted mistake",
+      "Panel 3: complaint blaming an external target"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Everything works",
+          "Skip all the tests",
+          "Why would the framework do this?"
+        ],
+        "why": "The visible decision to skip tests undermines the accusation."
+      }
+    ],
+    "avoid": [
+      "Keep the causal mistake visible before the blame."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

@@ -1,0 +1,75 @@
+{
+  "aliases": [
+    "Yelling woman and confused cat",
+    "Woman versus cat"
+  ],
+  "asset": {
+    "path": "assets/imgflip-188390779.jpg",
+    "sha256": "715798139c5deb743ab3e3a24f477e4c97fd5184ea43648a3d1fffb7b193ce07",
+    "url": "https://i.imgflip.com/345v97.jpg"
+  },
+  "id": "imgflip-188390779",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "image",
+  "name": "Woman Yelling At Cat",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/188390779",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.884856+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "188390779"
+  },
+  "stats": {
+    "box_count": 2,
+    "captions_lifetime_estimate": 411500,
+    "height": 438,
+    "list_type": "image",
+    "rank_30d": 17,
+    "width": 680
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "An angry person confronts a cat that appears confused or unimpressed.",
+    "visual": "A tearful woman points angrily on the left while another woman holds her. On the right, a white cat sits at a dining table with a puzzled expression.",
+    "mechanism": "The mismatched emotional intensity makes a confrontation feel absurd; the cat can represent an innocent misunderstanding or a stubbornly literal reply.",
+    "scenarios": [
+      "Misunderstand a technical instruction in a literal way",
+      "Argue with someone who thinks the complaint is about something else",
+      "React calmly to someone else's disproportionate accusation"
+    ],
+    "keywords": [
+      "argument",
+      "misunderstanding",
+      "literal interpretation",
+      "angry accusation",
+      "confused reply"
+    ],
+    "emotions": [
+      "anger",
+      "confusion"
+    ],
+    "roles": [
+      "Left woman: aggrieved speaker",
+      "Right cat: confused or unimpressed respondent"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "I said production!",
+          "I plugged the cable in."
+        ],
+        "why": "The cat understands an instruction differently from the angry speaker."
+      }
+    ],
+    "avoid": [
+      "The two halves are a meme pairing; do not claim they depict one real event."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

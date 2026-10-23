@@ -1,0 +1,74 @@
+{
+  "aliases": [
+    "Dog in burning room",
+    "Everything is fine"
+  ],
+  "asset": {
+    "path": "assets/imgflip-55311130.jpg",
+    "sha256": "35b6aab01999cd2249178d006cb31a7b2aca278c7e3dc3c424851f8e4e9b9f8b",
+    "url": "https://i.imgflip.com/wxica.jpg"
+  },
+  "id": "imgflip-55311130",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "image",
+  "name": "This Is Fine",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/55311130",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.887822+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "55311130"
+  },
+  "stats": {
+    "box_count": 2,
+    "captions_lifetime_estimate": 166500,
+    "height": 282,
+    "list_type": "image",
+    "rank_30d": 40,
+    "width": 580
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "A dog calmly drinks coffee in a room that is on fire.",
+    "visual": "A cartoon dog sits at a table with a cup while flames fill the room. The existing speech bubble says this is fine.",
+    "mechanism": "The calm reaction is incompatible with the obvious crisis, expressing denial, forced composure, or normalized dysfunction.",
+    "scenarios": [
+      "Report normal operations while several services are down",
+      "Continue a routine while a project falls apart",
+      "Pretend a growing problem is manageable because facing it feels worse"
+    ],
+    "keywords": [
+      "denial",
+      "crisis",
+      "forced calm",
+      "everything is fine",
+      "dysfunction"
+    ],
+    "emotions": [
+      "anxiety",
+      "resignation"
+    ],
+    "roles": [
+      "Dog: person pretending to cope",
+      "Burning room: undeniable crisis"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Three services down. Status report: all systems normal."
+        ],
+        "why": "The reassuring report clashes with the visible disaster."
+      }
+    ],
+    "avoid": [
+      "This source already contains text; avoid covering the face or existing bubble with an unreviewed overlay."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-286543019",
+  "name": "Plague Doctor Gangsta's Paradise",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/4qlm0b.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "286543019",
+    "page_url": "https://imgflip.com/memetemplate/286543019",
+    "retrieved_at": "2026-10-23T07:34:16.984016+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 484,
+    "height": 720,
+    "box_count": 1,
+    "captions_lifetime_estimate": 13250,
+    "rank_30d": 34,
+    "list_type": "gif"
+  }
+}

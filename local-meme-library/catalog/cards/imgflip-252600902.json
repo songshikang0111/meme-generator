@@ -1,0 +1,75 @@
+{
+  "aliases": [
+    "Astronaut revelation",
+    "Always has been astronaut"
+  ],
+  "asset": {
+    "path": "assets/imgflip-252600902.png",
+    "sha256": "b1bb9ad7c5fe8b45f9587a07a4ac0ca35026002f1e22eab1722a490b0924afe0",
+    "url": "https://i.imgflip.com/46e43q.png"
+  },
+  "id": "imgflip-252600902",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "image",
+  "name": "Always Has Been",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/252600902",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.883382+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "252600902"
+  },
+  "stats": {
+    "box_count": 2,
+    "captions_lifetime_estimate": 251250,
+    "height": 540,
+    "list_type": "image",
+    "rank_30d": 6,
+    "width": 960
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "One astronaut discovers a truth that the other already knew.",
+    "visual": "Two astronauts look at Earth from space. The astronaut behind the surprised observer points a gun at them.",
+    "mechanism": "A dramatic revelation is answered with calm confirmation that the supposedly new truth was true all along.",
+    "scenarios": [
+      "Discover an automated workflow has always been operated manually",
+      "Realize a polished dashboard is a spreadsheet underneath",
+      "Learn that a supposedly temporary workaround has become permanent"
+    ],
+    "keywords": [
+      "revelation",
+      "hidden truth",
+      "always",
+      "realization",
+      "facade"
+    ],
+    "emotions": [
+      "surprise",
+      "resignation"
+    ],
+    "roles": [
+      "First astronaut: person discovering the truth",
+      "Second astronaut: insider who already knows"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "It was manual all along?",
+          "Always has been."
+        ],
+        "why": "The discovery changes the observer's understanding, while the insider treats it as old news."
+      }
+    ],
+    "avoid": [
+      "Do not present invented dialogue as a quote from the original source."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

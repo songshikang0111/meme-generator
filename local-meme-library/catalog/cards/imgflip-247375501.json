@@ -1,0 +1,75 @@
+{
+  "aliases": [
+    "Swole Doge versus Cheems",
+    "Strong Doge weak Doge"
+  ],
+  "asset": {
+    "path": "assets/imgflip-247375501.png",
+    "sha256": "701739f3ef172544146c312de0c3d649ad69f8e30389d24ea562524e1349ac4b",
+    "url": "https://i.imgflip.com/43a45p.png"
+  },
+  "id": "imgflip-247375501",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "image",
+  "name": "Buff Doge vs. Cheems",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/247375501",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.886316+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "247375501"
+  },
+  "stats": {
+    "box_count": 4,
+    "captions_lifetime_estimate": 387000,
+    "height": 720,
+    "list_type": "image",
+    "rank_30d": 28,
+    "width": 937
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "A muscular confident dog is contrasted with a small anxious dog.",
+    "visual": "A large muscular Doge stands on the left, while a smaller seated Cheems appears on the right.",
+    "mechanism": "Exaggerated strength and weakness contrast confident expectations with timid reality, or compare different contexts.",
+    "scenarios": [
+      "Estimate a task confidently but plead for more time when delivering",
+      "Be outspoken online and shy in person",
+      "Compare an idealized past with a disappointing present"
+    ],
+    "keywords": [
+      "contrast",
+      "expectation reality",
+      "before after",
+      "confidence",
+      "weakness"
+    ],
+    "emotions": [
+      "confidence",
+      "anxiety"
+    ],
+    "roles": [
+      "Left dog: strong or confident version",
+      "Right dog: weak or anxious version"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Me estimating: 3 days",
+          "Me delivering: 3 more days?"
+        ],
+        "why": "The delivery request undercuts the confident estimate."
+      }
+    ],
+    "avoid": [
+      "Treat historical or generational comparisons as a comic framing rather than evidence."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

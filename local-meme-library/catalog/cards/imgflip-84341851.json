@@ -1,0 +1,75 @@
+{
+  "aliases": [
+    "Dark Kermit",
+    "Inner evil voice"
+  ],
+  "asset": {
+    "path": "assets/imgflip-84341851.jpg",
+    "sha256": "2d4e5403d7be0ef4ea43c60c6b2fa210fac0ad28137acd91d439900f0f6340b5",
+    "url": "https://i.imgflip.com/1e7ql7.jpg"
+  },
+  "id": "imgflip-84341851",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "image",
+  "name": "Evil Kermit",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/84341851",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.889931+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "84341851"
+  },
+  "stats": {
+    "box_count": 2,
+    "captions_lifetime_estimate": 167750,
+    "height": 325,
+    "list_type": "image",
+    "rank_30d": 56,
+    "width": 700
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "Kermit faces a hooded version of himself that suggests a tempting bad idea.",
+    "visual": "Kermit appears on the left opposite a dark hooded Kermit on the right.",
+    "mechanism": "The internal conflict between restraint and temptation becomes a dialogue with an exaggerated mischievous inner voice.",
+    "scenarios": [
+      "Consider testing first while the inner voice says to ship immediately",
+      "Try to save money while tempted to buy another gadget",
+      "Plan a responsible bedtime while tempted by one more episode"
+    ],
+    "keywords": [
+      "inner voice",
+      "temptation",
+      "bad advice",
+      "self control",
+      "impulse"
+    ],
+    "emotions": [
+      "temptation",
+      "hesitation"
+    ],
+    "roles": [
+      "Ordinary Kermit: sensible thought",
+      "Hooded Kermit: tempting bad advice"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Test it first",
+          "Just ship to production"
+        ],
+        "why": "The hooded self supplies the reckless shortcut."
+      }
+    ],
+    "avoid": [
+      "Make it clear which side voices the tempting alternative."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

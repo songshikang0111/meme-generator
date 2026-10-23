@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+skill_dir="$(cd -- "$(dirname -- "$(readlink -f -- "$0")")/.." && pwd)"
+if [[ -x "$skill_dir/.venv/bin/python" ]]; then
+  exec "$skill_dir/.venv/bin/python" "$skill_dir/scripts/meme.py" "$@"
+fi
+exec python3 "$skill_dir/scripts/meme.py" "$@"

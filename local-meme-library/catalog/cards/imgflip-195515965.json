@@ -1,0 +1,117 @@
+{
+  "aliases": [
+    "Clown makeup progression",
+    "Becoming a clown"
+  ],
+  "asset": {
+    "path": "assets/imgflip-195515965.jpg",
+    "sha256": "11969d438f8df4ea8915047cd66f4b8e55b854bcf2d0a36fffc50c528b62020a",
+    "url": "https://i.imgflip.com/38el31.jpg"
+  },
+  "id": "imgflip-195515965",
+  "layout": {
+    "status": "reviewed",
+    "units": "relative",
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API.",
+    "boxes": [
+      {
+        "x": 0.025,
+        "y": 0.02,
+        "w": 0.465,
+        "h": 0.21,
+        "role": "Row 1: plausible claim",
+        "color": "#111111",
+        "stroke": 0
+      },
+      {
+        "x": 0.025,
+        "y": 0.27,
+        "w": 0.465,
+        "h": 0.21,
+        "role": "Row 2: doubtful reassurance",
+        "color": "#111111",
+        "stroke": 0
+      },
+      {
+        "x": 0.025,
+        "y": 0.52,
+        "w": 0.465,
+        "h": 0.21,
+        "role": "Row 3: strained justification",
+        "color": "#111111",
+        "stroke": 0
+      },
+      {
+        "x": 0.025,
+        "y": 0.77,
+        "w": 0.465,
+        "h": 0.21,
+        "role": "Row 4: fully absurd insistence",
+        "color": "#111111",
+        "stroke": 0
+      }
+    ]
+  },
+  "media_type": "image",
+  "name": "Clown Applying Makeup",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/195515965",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.889393+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "195515965"
+  },
+  "stats": {
+    "box_count": 4,
+    "captions_lifetime_estimate": 132500,
+    "height": 798,
+    "list_type": "image",
+    "rank_30d": 52,
+    "width": 750
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "A person becomes a clown as their claims become increasingly hard to defend.",
+    "visual": "Four rows show successive stages of applying clown makeup, with space for captions beside each stage.",
+    "mechanism": "Progressive makeup makes escalating rationalizations look increasingly foolish.",
+    "scenarios": [
+      "Insist a growing project is still a tiny quick change",
+      "Keep defending a repeatedly broken promise",
+      "Double down on a prediction as contradictory evidence accumulates"
+    ],
+    "keywords": [
+      "rationalization",
+      "self deception",
+      "escalation",
+      "clown",
+      "doubling down"
+    ],
+    "emotions": [
+      "embarrassment",
+      "denial"
+    ],
+    "roles": [
+      "Row 1: plausible claim",
+      "Row 2: doubtful reassurance",
+      "Row 3: strained justification",
+      "Row 4: fully absurd insistence"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "It's a small change",
+          "Done by tonight",
+          "Deploy tomorrow",
+          "No more scope changes"
+        ],
+        "why": "The promises become less credible as the clown transformation progresses."
+      }
+    ],
+    "avoid": [
+      "Use a progression rather than four unrelated insults."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

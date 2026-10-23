@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-101716",
+  "name": "Yo Dawg Heard You",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/26hg.jpg"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "101716",
+    "page_url": "https://imgflip.com/memetemplate/101716",
+    "retrieved_at": "2026-10-23T07:34:14.895618+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 500,
+    "height": 323,
+    "box_count": 2,
+    "captions_lifetime_estimate": 89250,
+    "rank_30d": 98,
+    "list_type": "image"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "aliases": [
+    "UNO draw twenty-five",
+    "Do it or draw 25"
+  ],
+  "asset": {
+    "path": "assets/imgflip-217743513.jpg",
+    "sha256": "8b583f1d6a7566c233fefca12a4fdfd6802ab83b95b320e9a4282fc02c6f95bd",
+    "url": "https://i.imgflip.com/3lmzyx.jpg"
+  },
+  "id": "imgflip-217743513",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "image",
+  "name": "UNO Draw 25 Cards",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/217743513",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.883230+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "217743513"
+  },
+  "stats": {
+    "box_count": 2,
+    "captions_lifetime_estimate": 668000,
+    "height": 494,
+    "list_type": "image",
+    "rank_30d": 5,
+    "width": 500
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "Someone would rather accept a large UNO penalty than do a simple thing.",
+    "visual": "A card on the left offers an action or drawing 25 cards. A player on the right holds an enormous hand of cards.",
+    "mechanism": "The wildly disproportionate penalty exposes stubbornness, pride, or refusal to concede an obvious point.",
+    "scenarios": [
+      "Refuse to admit that the cache caused a bug after hours of debugging",
+      "Keep doing repetitive work rather than learn one shortcut",
+      "Accept extra work rather than apologize"
+    ],
+    "keywords": [
+      "stubbornness",
+      "refusal",
+      "disproportionate penalty",
+      "pride",
+      "draw 25"
+    ],
+    "emotions": [
+      "defiance",
+      "embarrassment"
+    ],
+    "roles": [
+      "Left card: action being refused",
+      "Right player: person accepting the penalty"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Admit it was the cache",
+          "Me after 6 hours debugging"
+        ],
+        "why": "The person pays a ridiculous cost to avoid admitting the simple answer."
+      }
+    ],
+    "avoid": [
+      "Make the refused action clear; the joke depends on choosing the penalty instead."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

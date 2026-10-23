@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-129242436",
+  "name": "Change My Mind",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/24y43o.jpg"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "129242436",
+    "page_url": "https://imgflip.com/memetemplate/129242436",
+    "retrieved_at": "2026-10-23T07:34:14.884988+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 482,
+    "height": 361,
+    "box_count": 2,
+    "captions_lifetime_estimate": 681250,
+    "rank_30d": 18,
+    "list_type": "image"
+  }
+}

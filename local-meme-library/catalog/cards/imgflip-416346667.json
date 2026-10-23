@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-416346667",
+  "name": "dancing skeleton",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/6vvr57.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "416346667",
+    "page_url": "https://imgflip.com/memetemplate/416346667",
+    "retrieved_at": "2026-10-23T07:34:16.993553+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 320,
+    "height": 288,
+    "box_count": 1,
+    "captions_lifetime_estimate": 1250,
+    "rank_30d": 99,
+    "list_type": "gif"
+  }
+}

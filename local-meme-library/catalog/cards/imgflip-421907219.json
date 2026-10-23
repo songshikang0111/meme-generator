@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-421907219",
+  "name": "Big bird kicks down a door",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/6z6xoz.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "421907219",
+    "page_url": "https://imgflip.com/memetemplate/421907219",
+    "retrieved_at": "2026-10-23T07:34:16.986543+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 360,
+    "height": 202,
+    "box_count": 1,
+    "captions_lifetime_estimate": 2250,
+    "rank_30d": 53,
+    "list_type": "gif"
+  }
+}

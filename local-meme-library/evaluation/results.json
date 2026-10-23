@@ -1,0 +1,877 @@
+{
+  "evaluated_at": "2026-10-23T08:34:08.271043+00:00",
+  "semantic_corpus_hash": "a89ecc4ab338414ba5f9d5463bd39bf1788939c31b82f0e1156ad44b159e526b",
+  "note": "Editorial English development cases over the curated prototype catalog, with no agent rewriting at evaluation time. Hit@5 measures whether any annotated relevant template is retrieved; Recall@5 averages the fraction retrieved per request. This is not an independent blind test or real-world accuracy estimate. Unrelated requests are recorded separately and require agent review. Timing separates the first request from subsequent calls in the same process.",
+  "metrics": {
+    "semantic": {
+      "all_relevant": {
+        "count": 30,
+        "hit_at5": 0.8333,
+        "recall_at5": 0.8167
+      },
+      "paraphrase": {
+        "count": 17,
+        "hit_at5": 0.7647,
+        "recall_at5": 0.7353
+      },
+      "scenario": {
+        "count": 12,
+        "hit_at5": 0.9167,
+        "recall_at5": 0.9167
+      },
+      "user-intent": {
+        "count": 1,
+        "hit_at5": 1.0,
+        "recall_at5": 1.0
+      },
+      "timing": {
+        "first_request_ms": 5101.3,
+        "subsequent_median_ms": 8.72
+      }
+    }
+  },
+  "samples": [
+    {
+      "query": "Choosing road B at a fork between roads A and B",
+      "relevant": [
+        "imgflip-124822590"
+      ],
+      "group": "user-intent",
+      "search_text": "Choosing road B at a fork between roads A and B",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-124822590",
+            "imgflip-181913649",
+            "imgflip-79132341",
+            "imgflip-135256802",
+            "imgflip-112126428"
+          ],
+          "relevant_retrieved": [
+            "imgflip-124822590"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 5101.3
+        }
+      }
+    },
+    {
+      "query": "Everything is broken but the manager insists it is all fine",
+      "relevant": [
+        "imgflip-55311130"
+      ],
+      "group": "scenario",
+      "search_text": "Everything is broken but the manager insists it is all fine",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-55311130",
+            "imgflip-226297822",
+            "imgflip-131940431",
+            "imgflip-1035805",
+            "imgflip-135256802"
+          ],
+          "relevant_retrieved": [
+            "imgflip-55311130"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 15.05
+        }
+      }
+    },
+    {
+      "query": "I want to leave on time and also finish every feature; I cannot choose",
+      "relevant": [
+        "imgflip-87743020"
+      ],
+      "group": "scenario",
+      "search_text": "I want to leave on time and also finish every feature; I cannot choose",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-87743020",
+            "imgflip-124822590",
+            "imgflip-181913649",
+            "imgflip-80707627",
+            "imgflip-4087833"
+          ],
+          "relevant_retrieved": [
+            "imgflip-87743020"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 11.27
+        }
+      }
+    },
+    {
+      "query": "I skipped the tests myself and then blamed the framework for the failure",
+      "relevant": [
+        "imgflip-79132341"
+      ],
+      "group": "scenario",
+      "search_text": "I skipped the tests myself and then blamed the framework for the failure",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-79132341",
+            "imgflip-155067746",
+            "imgflip-226297822",
+            "imgflip-181913649",
+            "imgflip-89370399"
+          ],
+          "relevant_retrieved": [
+            "imgflip-79132341"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 8.6
+        }
+      }
+    },
+    {
+      "query": "An employee gives a useful suggestion and gets kicked out of the meeting",
+      "relevant": [
+        "imgflip-1035805"
+      ],
+      "group": "scenario",
+      "search_text": "An employee gives a useful suggestion and gets kicked out of the meeting",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-1035805",
+            "imgflip-131940431",
+            "imgflip-304768047",
+            "imgflip-135256802",
+            "imgflip-55311130"
+          ],
+          "relevant_retrieved": [
+            "imgflip-1035805"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 8.73
+        }
+      }
+    },
+    {
+      "query": "My coworkers complain about low overtime pay but I get none",
+      "relevant": [
+        "imgflip-177682295"
+      ],
+      "group": "scenario",
+      "search_text": "My coworkers complain about low overtime pay but I get none",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-177682295",
+            "imgflip-322841258",
+            "imgflip-217743513",
+            "imgflip-87743020",
+            "imgflip-1035805"
+          ],
+          "relevant_retrieved": [
+            "imgflip-177682295"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 8.83
+        }
+      }
+    },
+    {
+      "query": "There is a useful simple tool but I insist on building a more complicated one",
+      "relevant": [
+        "imgflip-181913649",
+        "imgflip-93895088"
+      ],
+      "group": "scenario",
+      "search_text": "There is a useful simple tool but I insist on building a more complicated one",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-87743020",
+            "imgflip-1035805",
+            "imgflip-322841258",
+            "imgflip-217743513",
+            "imgflip-304768047"
+          ],
+          "relevant_retrieved": [],
+          "hit_at5": false,
+          "recall_at5": 0.0,
+          "selection_required": true,
+          "elapsed_ms": 8.69
+        }
+      }
+    },
+    {
+      "query": "I knew skipping tests would cause bugs but still acted shocked",
+      "relevant": [
+        "imgflip-155067746"
+      ],
+      "group": "scenario",
+      "search_text": "I knew skipping tests would cause bugs but still acted shocked",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-155067746",
+            "imgflip-79132341",
+            "imgflip-89370399",
+            "imgflip-226297822",
+            "imgflip-84341851"
+          ],
+          "relevant_retrieved": [
+            "imgflip-155067746"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 13.59
+        }
+      }
+    },
+    {
+      "query": "A tiny problem gets more elaborate solutions until we create a committee",
+      "relevant": [
+        "imgflip-93895088"
+      ],
+      "group": "scenario",
+      "search_text": "A tiny problem gets more elaborate solutions until we create a committee",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-93895088",
+            "imgflip-131940431",
+            "imgflip-1035805",
+            "imgflip-322841258",
+            "imgflip-195515965"
+          ],
+          "relevant_retrieved": [
+            "imgflip-93895088"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 9.34
+        }
+      }
+    },
+    {
+      "query": "The client promised a reply soon and I have been waiting forever",
+      "relevant": [
+        "imgflip-4087833"
+      ],
+      "group": "scenario",
+      "search_text": "The client promised a reply soon and I have been waiting forever",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-4087833",
+            "imgflip-177682295",
+            "imgflip-322841258",
+            "imgflip-304768047",
+            "imgflip-195515965"
+          ],
+          "relevant_retrieved": [
+            "imgflip-4087833"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 8.21
+        }
+      }
+    },
+    {
+      "query": "Two products have different names but are actually identical",
+      "relevant": [
+        "imgflip-180190441"
+      ],
+      "group": "scenario",
+      "search_text": "Two products have different names but are actually identical",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-180190441",
+            "imgflip-87743020",
+            "imgflip-135256802",
+            "imgflip-386198399",
+            "imgflip-171219241"
+          ],
+          "relevant_retrieved": [
+            "imgflip-180190441"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 9.12
+        }
+      }
+    },
+    {
+      "query": "The service failed, luckily we have backups, but the backups are broken too",
+      "relevant": [
+        "imgflip-226297822"
+      ],
+      "group": "scenario",
+      "search_text": "The service failed, luckily we have backups, but the backups are broken too",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-226297822",
+            "imgflip-131940431",
+            "imgflip-79132341",
+            "imgflip-55311130",
+            "imgflip-171219241"
+          ],
+          "relevant_retrieved": [
+            "imgflip-226297822"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 9.49
+        }
+      }
+    },
+    {
+      "query": "I blame the framework after disabling all tests",
+      "relevant": [
+        "imgflip-79132341"
+      ],
+      "group": "scenario",
+      "search_text": "I blame the framework after disabling all tests",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-79132341",
+            "imgflip-155067746",
+            "imgflip-226297822",
+            "imgflip-89370399",
+            "imgflip-181913649"
+          ],
+          "relevant_retrieved": [
+            "imgflip-79132341"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 8.78
+        }
+      }
+    },
+    {
+      "query": "I promised to sleep early but immediately abandoned that idea for a game invitation",
+      "relevant": [
+        "imgflip-84341851",
+        "imgflip-124822590",
+        "imgflip-112126428"
+      ],
+      "group": "paraphrase",
+      "search_text": "I promised to sleep early but immediately abandoned that idea for a game invitation",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-80707627",
+            "imgflip-155067746",
+            "imgflip-131940431",
+            "imgflip-4087833",
+            "imgflip-322841258"
+          ],
+          "relevant_retrieved": [],
+          "hit_at5": false,
+          "recall_at5": 0.0,
+          "selection_required": true,
+          "elapsed_ms": 8.71
+        }
+      }
+    },
+    {
+      "query": "They keep promising feedback shortly, but it has been half a month",
+      "relevant": [
+        "imgflip-4087833"
+      ],
+      "group": "paraphrase",
+      "search_text": "They keep promising feedback shortly, but it has been half a month",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-322841258",
+            "imgflip-181913649",
+            "imgflip-4087833",
+            "imgflip-155067746",
+            "imgflip-304768047"
+          ],
+          "relevant_retrieved": [
+            "imgflip-4087833"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 10.48
+        }
+      }
+    },
+    {
+      "query": "I dug my own hole and now complain about my surroundings",
+      "relevant": [
+        "imgflip-79132341"
+      ],
+      "group": "paraphrase",
+      "search_text": "I dug my own hole and now complain about my surroundings",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-89370399",
+            "imgflip-55311130",
+            "imgflip-304768047",
+            "imgflip-87743020",
+            "imgflip-80707627"
+          ],
+          "relevant_retrieved": [],
+          "hit_at5": false,
+          "recall_at5": 0.0,
+          "selection_required": true,
+          "elapsed_ms": 9.11
+        }
+      }
+    },
+    {
+      "query": "I have been explaining seriously for ages and the other side acts like they heard nothing",
+      "relevant": [
+        "imgflip-304768047"
+      ],
+      "group": "paraphrase",
+      "search_text": "I have been explaining seriously for ages and the other side acts like they heard nothing",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-304768047",
+            "imgflip-188390779",
+            "imgflip-1035805",
+            "imgflip-135256802",
+            "imgflip-171219241"
+          ],
+          "relevant_retrieved": [
+            "imgflip-304768047"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 8.16
+        }
+      }
+    },
+    {
+      "query": "One person enthusiastically presents a plan while the other gradually realizes something is wrong",
+      "relevant": [
+        "imgflip-322841258"
+      ],
+      "group": "paraphrase",
+      "search_text": "One person enthusiastically presents a plan while the other gradually realizes something is wrong",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-131940431",
+            "imgflip-112126428",
+            "imgflip-155067746",
+            "imgflip-87743020",
+            "imgflip-304768047"
+          ],
+          "relevant_retrieved": [],
+          "hit_at5": false,
+          "recall_at5": 0.0,
+          "selection_required": true,
+          "elapsed_ms": 7.55
+        }
+      }
+    },
+    {
+      "query": "Everyone is showing off their bonuses and I do not even receive a salary",
+      "relevant": [
+        "imgflip-177682295"
+      ],
+      "group": "paraphrase",
+      "search_text": "Everyone is showing off their bonuses and I do not even receive a salary",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-177682295",
+            "imgflip-155067746",
+            "imgflip-217743513",
+            "imgflip-222516354",
+            "imgflip-322841258"
+          ],
+          "relevant_retrieved": [
+            "imgflip-177682295"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 7.42
+        }
+      }
+    },
+    {
+      "query": "As soon as someone asks who is available to work I quietly leave the chat",
+      "relevant": [
+        "imgflip-222516354",
+        "imgflip-171219241"
+      ],
+      "group": "paraphrase",
+      "search_text": "As soon as someone asks who is available to work I quietly leave the chat",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-1035805",
+            "imgflip-304768047",
+            "imgflip-80707627",
+            "imgflip-222516354",
+            "imgflip-322841258"
+          ],
+          "relevant_retrieved": [
+            "imgflip-222516354"
+          ],
+          "hit_at5": true,
+          "recall_at5": 0.5,
+          "selection_required": true,
+          "elapsed_ms": 8.77
+        }
+      }
+    },
+    {
+      "query": "Two people have different jobs but both hate the same thing",
+      "relevant": [
+        "imgflip-135256802"
+      ],
+      "group": "paraphrase",
+      "search_text": "Two people have different jobs but both hate the same thing",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-180190441",
+            "imgflip-177682295",
+            "imgflip-87743020",
+            "imgflip-135256802",
+            "imgflip-188390779"
+          ],
+          "relevant_retrieved": [
+            "imgflip-135256802"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 7.46
+        }
+      }
+    },
+    {
+      "query": "I secretly enjoy watching someone else have a disaster",
+      "relevant": [
+        "imgflip-97984"
+      ],
+      "group": "paraphrase",
+      "search_text": "I secretly enjoy watching someone else have a disaster",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-97984",
+            "imgflip-226297822",
+            "imgflip-155067746",
+            "imgflip-79132341",
+            "imgflip-252600902"
+          ],
+          "relevant_retrieved": [
+            "imgflip-97984"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 7.37
+        }
+      }
+    },
+    {
+      "query": "The same requirement was repackaged and sold to me again",
+      "relevant": [
+        "imgflip-180190441"
+      ],
+      "group": "paraphrase",
+      "search_text": "The same requirement was repackaged and sold to me again",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-181913649",
+            "imgflip-89370399",
+            "imgflip-4087833",
+            "imgflip-180190441",
+            "imgflip-131940431"
+          ],
+          "relevant_retrieved": [
+            "imgflip-180190441"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 7.4
+        }
+      }
+    },
+    {
+      "query": "At every step I thought I was clever, then realized I had become a joke",
+      "relevant": [
+        "imgflip-195515965",
+        "imgflip-93895088"
+      ],
+      "group": "paraphrase",
+      "search_text": "At every step I thought I was clever, then realized I had become a joke",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-89370399",
+            "imgflip-93895088",
+            "imgflip-124822590",
+            "imgflip-131940431",
+            "imgflip-195515965"
+          ],
+          "relevant_retrieved": [
+            "imgflip-195515965",
+            "imgflip-93895088"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 8.16
+        }
+      }
+    },
+    {
+      "query": "The supposed new technology turns out to have been manual from the start",
+      "relevant": [
+        "imgflip-252600902"
+      ],
+      "group": "paraphrase",
+      "search_text": "The supposed new technology turns out to have been manual from the start",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-386198399",
+            "imgflip-252600902",
+            "imgflip-226297822",
+            "imgflip-180190441",
+            "imgflip-112126428"
+          ],
+          "relevant_retrieved": [
+            "imgflip-252600902"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 8.86
+        }
+      }
+    },
+    {
+      "query": "The server crashed, the saved data exists, but it cannot be restored",
+      "relevant": [
+        "imgflip-226297822"
+      ],
+      "group": "paraphrase",
+      "search_text": "The server crashed, the saved data exists, but it cannot be restored",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-226297822",
+            "imgflip-79132341",
+            "imgflip-131940431",
+            "imgflip-80707627",
+            "imgflip-55311130"
+          ],
+          "relevant_retrieved": [
+            "imgflip-226297822"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 7.61
+        }
+      }
+    },
+    {
+      "query": "I used to make bold promises but now I am timid and helpless",
+      "relevant": [
+        "imgflip-247375501"
+      ],
+      "group": "paraphrase",
+      "search_text": "I used to make bold promises but now I am timid and helpless",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-195515965",
+            "imgflip-322841258",
+            "imgflip-4087833",
+            "imgflip-84341851",
+            "imgflip-87743020"
+          ],
+          "relevant_retrieved": [],
+          "hit_at5": false,
+          "recall_at5": 0.0,
+          "selection_required": true,
+          "elapsed_ms": 10.8
+        }
+      }
+    },
+    {
+      "query": "If I never do anything, I cannot make any mistakes",
+      "relevant": [
+        "imgflip-89370399"
+      ],
+      "group": "paraphrase",
+      "search_text": "If I never do anything, I cannot make any mistakes",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-89370399",
+            "imgflip-79132341",
+            "imgflip-252600902",
+            "imgflip-84341851",
+            "imgflip-217743513"
+          ],
+          "relevant_retrieved": [
+            "imgflip-89370399"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 9.63
+        }
+      }
+    },
+    {
+      "query": "Management lavishes attention on the new thing while the old system rots unnoticed",
+      "relevant": [
+        "imgflip-252758727"
+      ],
+      "group": "paraphrase",
+      "search_text": "Management lavishes attention on the new thing while the old system rots unnoticed",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-131940431",
+            "imgflip-252758727",
+            "imgflip-322841258",
+            "imgflip-386198399",
+            "imgflip-180190441"
+          ],
+          "relevant_retrieved": [
+            "imgflip-252758727"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 11.87
+        }
+      }
+    },
+    {
+      "query": "I want the meme about swerving towards option B instead of A",
+      "relevant": [
+        "imgflip-124822590"
+      ],
+      "group": "paraphrase",
+      "search_text": "swerving towards option B instead of A",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-124822590",
+            "imgflip-181913649",
+            "imgflip-131940431",
+            "imgflip-87743020",
+            "imgflip-89370399"
+          ],
+          "relevant_retrieved": [
+            "imgflip-124822590"
+          ],
+          "hit_at5": true,
+          "recall_at5": 1.0,
+          "selection_required": true,
+          "elapsed_ms": 7.54
+        }
+      }
+    },
+    {
+      "query": "What is the weather in Taipei tomorrow?",
+      "relevant": [],
+      "group": "unrelated",
+      "search_text": "What is the weather in Taipei tomorrow?",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-155067746",
+            "imgflip-87743020",
+            "imgflip-226297822",
+            "imgflip-181913649",
+            "imgflip-80707627"
+          ],
+          "relevant_retrieved": [],
+          "hit_at5": null,
+          "recall_at5": null,
+          "selection_required": true,
+          "elapsed_ms": 7.26
+        }
+      }
+    },
+    {
+      "query": "Teach me to cook tomato and egg noodles",
+      "relevant": [],
+      "group": "unrelated",
+      "search_text": "Teach me to cook tomato and egg noodles",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-93895088",
+            "imgflip-135256802",
+            "imgflip-89370399",
+            "imgflip-55311130",
+            "imgflip-322841258"
+          ],
+          "relevant_retrieved": [],
+          "hit_at5": null,
+          "recall_at5": null,
+          "selection_required": true,
+          "elapsed_ms": 8.1
+        }
+      }
+    },
+    {
+      "query": "Where is the nearest bank?",
+      "relevant": [],
+      "group": "unrelated",
+      "search_text": "Where is the nearest bank?",
+      "modes": {
+        "semantic": {
+          "candidates": [
+            "imgflip-222516354",
+            "imgflip-124822590",
+            "imgflip-89370399",
+            "imgflip-4087833",
+            "imgflip-80707627"
+          ],
+          "relevant_retrieved": [],
+          "hit_at5": null,
+          "recall_at5": null,
+          "selection_required": true,
+          "elapsed_ms": 7.65
+        }
+      }
+    }
+  ]
+}

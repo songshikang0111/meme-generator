@@ -1,0 +1,117 @@
+{
+  "aliases": [
+    "Thrown out the window",
+    "Honest suggestion at a meeting"
+  ],
+  "asset": {
+    "path": "assets/imgflip-1035805.jpg",
+    "sha256": "84762bf3e2170e9d1eb8319958523f9d227fb9a88a0625c6f09d5928bf3afeb8",
+    "url": "https://i.imgflip.com/m78d.jpg"
+  },
+  "id": "imgflip-1035805",
+  "layout": {
+    "status": "reviewed",
+    "units": "relative",
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API.",
+    "boxes": [
+      {
+        "x": 0.345,
+        "y": 0.015,
+        "w": 0.54,
+        "h": 0.065,
+        "role": "Top boss: problem or request",
+        "color": "#111111",
+        "stroke": 0
+      },
+      {
+        "x": 0.052,
+        "y": 0.381,
+        "w": 0.194,
+        "h": 0.039,
+        "role": "Left employee: safe ineffective response",
+        "color": "#111111",
+        "stroke": 0
+      },
+      {
+        "x": 0.34,
+        "y": 0.397,
+        "w": 0.145,
+        "h": 0.035,
+        "role": "Middle employee: another safe response",
+        "color": "#111111",
+        "stroke": 0
+      },
+      {
+        "x": 0.635,
+        "y": 0.408,
+        "w": 0.235,
+        "h": 0.05,
+        "role": "Right employee: useful unwelcome suggestion",
+        "color": "#111111",
+        "stroke": 0
+      }
+    ]
+  },
+  "media_type": "image",
+  "name": "Boardroom Meeting Suggestion",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/1035805",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.890070+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "1035805"
+  },
+  "stats": {
+    "box_count": 4,
+    "captions_lifetime_estimate": 413250,
+    "height": 649,
+    "list_type": "image",
+    "rank_30d": 57,
+    "width": 500
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "A boss asks for suggestions, then throws out the person offering a sensible answer.",
+    "visual": "The top panel shows a boss at a desk. Three employees respond in the next panel. The final sequence shows an angry reaction and someone flying out a window.",
+    "mechanism": "An organization invites ideas but punishes the person who addresses the real problem, creating workplace satire.",
+    "scenarios": [
+      "Allow reports and meetings after an incident but reject fixing the cause",
+      "Ask for innovation and punish a proposal that would change anything",
+      "Solve the problem by removing the person who points it out"
+    ],
+    "keywords": [
+      "unwanted truth",
+      "reasonable suggestion",
+      "punished honesty",
+      "boardroom",
+      "management"
+    ],
+    "emotions": [
+      "anger",
+      "frustration"
+    ],
+    "roles": [
+      "Top boss: problem or request",
+      "Left employee: safe ineffective response",
+      "Middle employee: another safe response",
+      "Right employee: useful unwelcome suggestion"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Production is down. Ideas?",
+          "More calls",
+          "Reports",
+          "Fix it"
+        ],
+        "why": "The useful answer receives punishment while empty process is accepted."
+      }
+    ],
+    "avoid": [
+      "The final suggestion is usually sensible; make an intentional reversal clear."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

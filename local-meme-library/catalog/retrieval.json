@@ -1,0 +1,6 @@
+{
+  "default_mode": "semantic",
+  "query_language": "en",
+  "candidate_limit": 5,
+  "reason": "English embeddings produce a shortlist for agent visual review, not a final template selection."
+}

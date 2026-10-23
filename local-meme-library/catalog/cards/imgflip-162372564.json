@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-162372564",
+  "name": "Domino Effect",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/2oo7h0.jpg"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "162372564",
+    "page_url": "https://imgflip.com/memetemplate/162372564",
+    "retrieved_at": "2026-10-23T07:34:14.893919+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 820,
+    "height": 565,
+    "box_count": 2,
+    "captions_lifetime_estimate": 39000,
+    "rank_30d": 85,
+    "list_type": "image"
+  }
+}

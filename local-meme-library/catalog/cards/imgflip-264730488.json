@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-264730488",
+  "name": "Lion king yeet",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/4dm3co.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "264730488",
+    "page_url": "https://imgflip.com/memetemplate/264730488",
+    "retrieved_at": "2026-10-23T07:34:16.982649+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 320,
+    "height": 186,
+    "box_count": 1,
+    "captions_lifetime_estimate": 9750,
+    "rank_30d": 24,
+    "list_type": "gif"
+  }
+}

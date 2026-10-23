@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-259237855",
+  "name": "Laughing Leo",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/4acd7j.png"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "259237855",
+    "page_url": "https://imgflip.com/memetemplate/259237855",
+    "retrieved_at": "2026-10-23T07:34:14.891624+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 470,
+    "height": 470,
+    "box_count": 2,
+    "captions_lifetime_estimate": 122250,
+    "rank_30d": 68,
+    "list_type": "image"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-286126573",
+  "name": "Confused Math Lady",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/4qcood.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "286126573",
+    "page_url": "https://imgflip.com/memetemplate/286126573",
+    "retrieved_at": "2026-10-23T07:34:16.985777+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 220,
+    "height": 140,
+    "box_count": 1,
+    "captions_lifetime_estimate": 6000,
+    "rank_30d": 47,
+    "list_type": "gif"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-549792503",
+  "name": "Black Guy Praying",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/93bylz.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "549792503",
+    "page_url": "https://imgflip.com/memetemplate/549792503",
+    "retrieved_at": "2026-10-23T07:34:16.983325+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 498,
+    "height": 416,
+    "box_count": 1,
+    "captions_lifetime_estimate": 2500,
+    "rank_30d": 29,
+    "list_type": "gif"
+  }
+}

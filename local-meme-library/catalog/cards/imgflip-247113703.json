@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-247113703",
+  "name": "A train hitting a school bus",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/434i5j.png"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "247113703",
+    "page_url": "https://imgflip.com/memetemplate/247113703",
+    "retrieved_at": "2026-10-23T07:34:14.890951+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 920,
+    "height": 1086,
+    "box_count": 2,
+    "captions_lifetime_estimate": 70250,
+    "rank_30d": 63,
+    "list_type": "image"
+  }
+}

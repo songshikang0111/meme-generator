@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-110163934",
+  "name": "I Bet He's Thinking About Other Women",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/1tl71a.jpg"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "110163934",
+    "page_url": "https://imgflip.com/memetemplate/110163934",
+    "retrieved_at": "2026-10-23T07:34:14.888079+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 1654,
+    "height": 930,
+    "box_count": 2,
+    "captions_lifetime_estimate": 190250,
+    "rank_30d": 42,
+    "list_type": "image"
+  }
+}

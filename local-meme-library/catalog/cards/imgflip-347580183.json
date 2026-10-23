@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-347580183",
+  "name": "Tony discovers a new element",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/5qxul3.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "347580183",
+    "page_url": "https://imgflip.com/memetemplate/347580183",
+    "retrieved_at": "2026-10-23T07:34:16.981022+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 268,
+    "height": 386,
+    "box_count": 1,
+    "captions_lifetime_estimate": 6000,
+    "rank_30d": 13,
+    "list_type": "gif"
+  }
+}

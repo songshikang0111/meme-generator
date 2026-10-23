@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+catalog/index.sqlite3*
+catalog/vectors.json
+catalog/vectors.npz
+.venv/
+.runtime/
+outputs/

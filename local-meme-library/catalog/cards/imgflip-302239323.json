@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-302239323",
+  "name": "money smell",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/4zy1cr.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "302239323",
+    "page_url": "https://imgflip.com/memetemplate/302239323",
+    "retrieved_at": "2026-10-23T07:34:16.981447+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 1280,
+    "height": 720,
+    "box_count": 1,
+    "captions_lifetime_estimate": 15750,
+    "rank_30d": 16,
+    "list_type": "gif"
+  }
+}

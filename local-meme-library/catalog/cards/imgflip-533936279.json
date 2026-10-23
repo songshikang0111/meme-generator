@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-533936279",
+  "name": "Bell Curve",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/8tw3vb.png"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "533936279",
+    "page_url": "https://imgflip.com/memetemplate/533936279",
+    "retrieved_at": "2026-10-23T07:34:14.888461+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 675,
+    "height": 499,
+    "box_count": 3,
+    "captions_lifetime_estimate": 38500,
+    "rank_30d": 45,
+    "list_type": "image"
+  }
+}

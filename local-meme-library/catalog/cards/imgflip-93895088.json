@@ -1,0 +1,117 @@
+{
+  "aliases": [
+    "Galaxy brain",
+    "Increasingly enlightened brain"
+  ],
+  "asset": {
+    "path": "assets/imgflip-93895088.jpg",
+    "sha256": "a6c69ad43f409fd250db1072edf8d2e51f7c9b1290f286da9fa4f6654000a8c2",
+    "url": "https://i.imgflip.com/1jwhww.jpg"
+  },
+  "id": "imgflip-93895088",
+  "layout": {
+    "status": "reviewed",
+    "units": "relative",
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API.",
+    "boxes": [
+      {
+        "x": 0.02,
+        "y": 0.015,
+        "w": 0.47,
+        "h": 0.22,
+        "role": "Row 1: simple approach",
+        "color": "#111111",
+        "stroke": 0
+      },
+      {
+        "x": 0.02,
+        "y": 0.265,
+        "w": 0.47,
+        "h": 0.22,
+        "role": "Row 2: more elaborate approach",
+        "color": "#111111",
+        "stroke": 0
+      },
+      {
+        "x": 0.02,
+        "y": 0.515,
+        "w": 0.47,
+        "h": 0.22,
+        "role": "Row 3: excessive approach",
+        "color": "#111111",
+        "stroke": 0
+      },
+      {
+        "x": 0.02,
+        "y": 0.765,
+        "w": 0.47,
+        "h": 0.22,
+        "role": "Row 4: absurdly grand solution",
+        "color": "#111111",
+        "stroke": 0
+      }
+    ]
+  },
+  "media_type": "image",
+  "name": "Expanding Brain",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/93895088",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.886707+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "93895088"
+  },
+  "stats": {
+    "box_count": 4,
+    "captions_lifetime_estimate": 485750,
+    "height": 1202,
+    "list_type": "image",
+    "rank_30d": 31,
+    "width": 857
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "Four progressively more elaborate brains accompany increasingly exaggerated ideas.",
+    "visual": "Four rows pair blank caption space on the left with brain imagery on the right, growing brighter and more cosmic.",
+    "mechanism": "The visual ascent pretends that each step is smarter, while captions can become increasingly absurd or overcomplicated.",
+    "scenarios": [
+      "Turn a one-line edit into a script, a platform, and a governance committee",
+      "Escalate a simple everyday solution into an elaborate ritual",
+      "Rank increasingly strange ways to avoid doing a task"
+    ],
+    "keywords": [
+      "escalation",
+      "overengineering",
+      "absurd complexity",
+      "galaxy brain",
+      "four stages"
+    ],
+    "emotions": [
+      "self satisfaction",
+      "absurdity"
+    ],
+    "roles": [
+      "Row 1: simple approach",
+      "Row 2: more elaborate approach",
+      "Row 3: excessive approach",
+      "Row 4: absurdly grand solution"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Edit one line",
+          "Write a script",
+          "Build a platform",
+          "Create a governance committee"
+        ],
+        "why": "Each apparent intellectual upgrade adds needless complexity."
+      }
+    ],
+    "avoid": [
+      "Increasing visual grandeur can be ironic; do not assume the final idea must be genuinely better."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

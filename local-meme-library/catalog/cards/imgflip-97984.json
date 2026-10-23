@@ -1,0 +1,74 @@
+{
+  "aliases": [
+    "Girl in front of burning house",
+    "Quiet instigator"
+  ],
+  "asset": {
+    "path": "assets/imgflip-97984.jpg",
+    "sha256": "e49921d81a803159d4720ab9f94a6d025890395bdd9e348bf48e4592599957c4",
+    "url": "https://i.imgflip.com/23ls.jpg"
+  },
+  "id": "imgflip-97984",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "image",
+  "name": "Disaster Girl",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/97984",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.884044+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "97984"
+  },
+  "stats": {
+    "box_count": 2,
+    "captions_lifetime_estimate": 444500,
+    "height": 375,
+    "list_type": "image",
+    "rank_30d": 11,
+    "width": 500
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "A girl smiles knowingly while a house burns behind her.",
+    "visual": "A young girl turns toward the camera with a small smile. A burning house and emergency responders are visible in the background.",
+    "mechanism": "The calm, pleased foreground expression clashes with the disaster behind her, suggesting mischief or enjoyment of the chaos.",
+    "scenarios": [
+      "Watch an argument after asking which programming language is best",
+      "Enjoy the chaos after revealing an inconvenient fact",
+      "Quietly observe the consequences of a mischievous suggestion"
+    ],
+    "keywords": [
+      "chaos",
+      "schadenfreude",
+      "instigator",
+      "mischief",
+      "disaster"
+    ],
+    "emotions": [
+      "amusement",
+      "satisfaction"
+    ],
+    "roles": [
+      "Girl: amused observer or implied instigator",
+      "Burning house: resulting chaos"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Me after asking which programming language is best"
+        ],
+        "why": "The harmless-looking question is paired with a wildly chaotic aftermath."
+      }
+    ],
+    "avoid": [
+      "The image suggests involvement for comic effect; it does not establish real responsibility."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

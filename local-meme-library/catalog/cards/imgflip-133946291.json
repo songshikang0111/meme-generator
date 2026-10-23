@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-133946291",
+  "name": "You know, I'm something of a scientist myself",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/27qxmb.jpg"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "133946291",
+    "page_url": "https://imgflip.com/memetemplate/133946291",
+    "retrieved_at": "2026-10-23T07:34:14.892429+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 1200,
+    "height": 600,
+    "box_count": 2,
+    "captions_lifetime_estimate": 29250,
+    "rank_30d": 74,
+    "list_type": "image"
+  }
+}

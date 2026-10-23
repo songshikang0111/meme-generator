@@ -1,0 +1,77 @@
+{
+  "aliases": [
+    "Predator handshake",
+    "Muscular arms handshake"
+  ],
+  "asset": {
+    "path": "assets/imgflip-135256802.jpg",
+    "sha256": "788b16c12e386da7a892bcc22026bfa99d8c1ca3727b0c26897f3f4e54323384",
+    "url": "https://i.imgflip.com/28j0te.jpg"
+  },
+  "id": "imgflip-135256802",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "image",
+  "name": "Epic Handshake",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/135256802",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.883789+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "135256802"
+  },
+  "stats": {
+    "box_count": 3,
+    "captions_lifetime_estimate": 271750,
+    "height": 645,
+    "list_type": "image",
+    "rank_30d": 9,
+    "width": 900
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "Two different groups meet over an unexpectedly shared interest.",
+    "visual": "Two muscular arms clasp hands in the center of the frame, leaving room to label each arm and their shared connection.",
+    "mechanism": "The contrast between the groups makes their common preference, habit, or enemy amusing.",
+    "scenarios": [
+      "Frontend and backend developers both hate last-minute changes",
+      "People with opposing tastes agree about one snack",
+      "Rival teams share the same complaint about management"
+    ],
+    "keywords": [
+      "agreement",
+      "common ground",
+      "shared enemy",
+      "unlikely allies",
+      "handshake"
+    ],
+    "emotions": [
+      "solidarity",
+      "recognition"
+    ],
+    "roles": [
+      "Left arm: first group",
+      "Right arm: second group",
+      "Clasped hands: shared interest"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Frontend",
+          "Backend",
+          "Hating last-minute changes"
+        ],
+        "why": "Groups that often disagree unite over a familiar complaint."
+      }
+    ],
+    "avoid": [
+      "The center label should be a genuine common point between the two side labels."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

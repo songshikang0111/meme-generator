@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-161865971",
+  "name": "Marked Safe From",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/2odckz.jpg"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "161865971",
+    "page_url": "https://imgflip.com/memetemplate/161865971",
+    "retrieved_at": "2026-10-23T07:34:14.885361+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 618,
+    "height": 499,
+    "box_count": 2,
+    "captions_lifetime_estimate": 233750,
+    "rank_30d": 21,
+    "list_type": "image"
+  }
+}

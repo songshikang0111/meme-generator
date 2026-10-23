@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-284929871",
+  "name": "They don't know",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/4pn1an.png"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "284929871",
+    "page_url": "https://imgflip.com/memetemplate/284929871",
+    "retrieved_at": "2026-10-23T07:34:14.888321+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 671,
+    "height": 673,
+    "box_count": 2,
+    "captions_lifetime_estimate": 51750,
+    "rank_30d": 44,
+    "list_type": "image"
+  }
+}

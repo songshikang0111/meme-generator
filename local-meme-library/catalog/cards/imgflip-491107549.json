@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-491107549",
+  "name": "Vince McMahon Crying",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/84e50d.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "491107549",
+    "page_url": "https://imgflip.com/memetemplate/491107549",
+    "retrieved_at": "2026-10-23T07:34:16.984422+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 432,
+    "height": 360,
+    "box_count": 1,
+    "captions_lifetime_estimate": 7500,
+    "rank_30d": 37,
+    "list_type": "gif"
+  }
+}

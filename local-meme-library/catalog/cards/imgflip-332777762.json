@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-332777762",
+  "name": "Rage Table Smash",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/5i4kyq.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "332777762",
+    "page_url": "https://imgflip.com/memetemplate/332777762",
+    "retrieved_at": "2026-10-23T07:34:16.981757+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 1280,
+    "height": 720,
+    "box_count": 1,
+    "captions_lifetime_estimate": 10750,
+    "rank_30d": 18,
+    "list_type": "gif"
+  }
+}

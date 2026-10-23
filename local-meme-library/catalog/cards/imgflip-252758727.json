@@ -1,0 +1,77 @@
+{
+  "aliases": [
+    "Drowning kid and skeleton",
+    "Unequal attention pool"
+  ],
+  "asset": {
+    "path": "assets/imgflip-252758727.jpg",
+    "sha256": "e1f314174f3ba0098d27ec52182e230e70e23fd23a8d447279ef87c47e7de5ad",
+    "url": "https://i.imgflip.com/46hhvr.jpg"
+  },
+  "id": "imgflip-252758727",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "image",
+  "name": "Mother Ignoring Kid Drowning In A Pool",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/252758727",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.887052+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "252758727"
+  },
+  "stats": {
+    "box_count": 4,
+    "captions_lifetime_estimate": 81250,
+    "height": 1032,
+    "list_type": "image",
+    "rank_30d": 34,
+    "width": 782
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "One child gets attention, another struggles nearby, and a skeleton below has been forgotten entirely.",
+    "visual": "A mother supports a happy child in a swimming pool while another child struggles at the surface. A lower underwater panel contains a skeleton.",
+    "mechanism": "Three levels of neglect turn a simple priority imbalance into an escalating hierarchy of forgotten responsibilities.",
+    "scenarios": [
+      "Prioritize new features while reliability struggles and restore drills are forgotten",
+      "Spend attention on the new hobby while older commitments suffer",
+      "Fund visible projects and forget invisible maintenance"
+    ],
+    "keywords": [
+      "neglected priority",
+      "unequal attention",
+      "forgotten responsibility",
+      "maintenance",
+      "three levels"
+    ],
+    "emotions": [
+      "neglect",
+      "frustration"
+    ],
+    "roles": [
+      "Supported child: favored priority",
+      "Struggling child: neglected priority",
+      "Underwater skeleton: completely forgotten priority"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "New features",
+          "Reliability",
+          "Backup restore drills"
+        ],
+        "why": "The three subjects show progressively less organizational attention."
+      }
+    ],
+    "avoid": [
+      "Keep the three labels distinct enough to show degrees of neglect."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-296551013",
+  "name": "Zombieland money tears",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/4wk485.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "296551013",
+    "page_url": "https://imgflip.com/memetemplate/296551013",
+    "retrieved_at": "2026-10-23T07:34:16.988495+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 480,
+    "height": 276,
+    "box_count": 1,
+    "captions_lifetime_estimate": 3750,
+    "rank_30d": 67,
+    "list_type": "gif"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "aliases": [
+    "Gru whiteboard plan",
+    "Plan backfires"
+  ],
+  "asset": {
+    "path": "assets/imgflip-131940431.jpg",
+    "sha256": "3af337f3ec5d4e5bcc69df4e038922a5c158bf40f4ced615d67360db423aa653",
+    "url": "https://i.imgflip.com/26jxvz.jpg"
+  },
+  "id": "imgflip-131940431",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "image",
+  "name": "Gru's Plan",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/131940431",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.883922+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "131940431"
+  },
+  "stats": {
+    "box_count": 4,
+    "captions_lifetime_estimate": 388500,
+    "height": 449,
+    "list_type": "image",
+    "rank_30d": 10,
+    "width": 700
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "Gru presents a plan, realizes a later step hurts him, and stares at it again.",
+    "visual": "Four panels show Gru beside a board. He confidently presents the first steps, then reacts to the same disastrous final step.",
+    "mechanism": "Repeating the final instruction lets the planner recognize the unintended consequence after the audience has already noticed it.",
+    "scenarios": [
+      "Automate cleanup and accidentally delete the backups",
+      "Design a policy that also penalizes its author",
+      "Optimize a workflow until it removes the very resource it needs"
+    ],
+    "keywords": [
+      "plan",
+      "backfire",
+      "unintended consequence",
+      "self sabotage",
+      "realization"
+    ],
+    "emotions": [
+      "confidence",
+      "shock"
+    ],
+    "roles": [
+      "Panel 1: initial step",
+      "Panel 2: next step",
+      "Panel 3: disastrous consequence",
+      "Panel 4: same consequence reconsidered"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Auto-clean old files",
+          "Delete anything unused for 30 days",
+          "Delete the backups",
+          "Delete the backups"
+        ],
+        "why": "The repeated last step exposes the flaw in the confident plan."
+      }
+    ],
+    "avoid": [
+      "Repeat the final step deliberately; changing it loses the recognition beat."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

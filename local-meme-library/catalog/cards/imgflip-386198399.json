@@ -1,0 +1,73 @@
+{
+  "aliases": [
+    "Lost Travolta",
+    "Looking around confused"
+  ],
+  "asset": {
+    "path": "assets/imgflip-386198399.mp4",
+    "sha256": "3f42a64022e13f04773a26aa7c52175743bc0f7e8fe9e47671572b341564c9c2",
+    "url": "https://i.imgflip.com/6dxklb.mp4"
+  },
+  "id": "imgflip-386198399",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "video",
+  "name": "Confused John Travolta Pulp Fiction",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/386198399",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:16.980756+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "386198399"
+  },
+  "stats": {
+    "box_count": 1,
+    "captions_lifetime_estimate": 9000,
+    "height": 212,
+    "list_type": "gif",
+    "rank_30d": 11,
+    "width": 426
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "A man looks around and gestures in confusion when something expected is missing.",
+    "visual": "A short clip shows John Travolta in a black suit turning his head and opening his hands while looking for something.",
+    "mechanism": "The searching body language makes an absent instruction, missing feature, or unfamiliar setting visible.",
+    "scenarios": [
+      "Look for the quick-start section in a confusing manual",
+      "Open a redesigned app and fail to find a familiar button",
+      "Arrive at a promised event and find nobody there"
+    ],
+    "keywords": [
+      "confusion",
+      "looking around",
+      "missing thing",
+      "lost",
+      "where is it"
+    ],
+    "emotions": [
+      "confusion",
+      "uncertainty"
+    ],
+    "roles": [
+      "Searching man: person unable to find what was expected"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Looking for the quick-start section"
+        ],
+        "why": "The search is the reaction to a missing expected resource."
+      }
+    ],
+    "avoid": [
+      "Avoid using the clip as generic anger; its main signal is puzzled searching."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

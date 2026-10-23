@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-232462064",
+  "name": "John Cena confuses",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/3uegvk.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "232462064",
+    "page_url": "https://imgflip.com/memetemplate/232462064",
+    "retrieved_at": "2026-10-23T07:34:16.986135+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 320,
+    "height": 180,
+    "box_count": 1,
+    "captions_lifetime_estimate": 11750,
+    "rank_30d": 50,
+    "list_type": "gif"
+  }
+}

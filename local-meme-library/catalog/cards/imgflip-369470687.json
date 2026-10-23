@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-369470687",
+  "name": "Steve Ballmer Developers",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/63z1en.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "369470687",
+    "page_url": "https://imgflip.com/memetemplate/369470687",
+    "retrieved_at": "2026-10-23T07:34:16.992199+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 320,
+    "height": 240,
+    "box_count": 1,
+    "captions_lifetime_estimate": 1000,
+    "rank_30d": 89,
+    "list_type": "gif"
+  }
+}

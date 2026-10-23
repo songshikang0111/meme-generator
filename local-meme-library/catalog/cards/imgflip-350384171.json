@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-350384171",
+  "name": "Man sucking suck banana",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/5sly5n.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "350384171",
+    "page_url": "https://imgflip.com/memetemplate/350384171",
+    "retrieved_at": "2026-10-23T07:34:16.989258+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 240,
+    "height": 320,
+    "box_count": 1,
+    "captions_lifetime_estimate": 3500,
+    "rank_30d": 73,
+    "list_type": "gif"
+  }
+}

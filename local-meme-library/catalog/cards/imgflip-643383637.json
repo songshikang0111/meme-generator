@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-643383637",
+  "name": "speed crashing out",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/an1xzp.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "643383637",
+    "page_url": "https://imgflip.com/memetemplate/643383637",
+    "retrieved_at": "2026-10-23T07:34:16.985005+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 266,
+    "height": 286,
+    "box_count": 1,
+    "captions_lifetime_estimate": 1500,
+    "rank_30d": 41,
+    "list_type": "gif"
+  }
+}

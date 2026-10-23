@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-234202281",
+  "name": "AJ Styles & Undertaker",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/3vfrmx.jpg"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "234202281",
+    "page_url": "https://imgflip.com/memetemplate/234202281",
+    "retrieved_at": "2026-10-23T07:34:14.892722+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 933,
+    "height": 525,
+    "box_count": 2,
+    "captions_lifetime_estimate": 48000,
+    "rank_30d": 76,
+    "list_type": "image"
+  }
+}

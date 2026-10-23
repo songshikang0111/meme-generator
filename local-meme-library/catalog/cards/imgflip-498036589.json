@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-498036589",
+  "name": "shrek rizz",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/88inhp.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "498036589",
+    "page_url": "https://imgflip.com/memetemplate/498036589",
+    "retrieved_at": "2026-10-23T07:34:16.991411+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 480,
+    "height": 380,
+    "box_count": 1,
+    "captions_lifetime_estimate": 2500,
+    "rank_30d": 83,
+    "list_type": "gif"
+  }
+}

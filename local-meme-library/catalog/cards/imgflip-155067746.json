@@ -1,0 +1,83 @@
+{
+  "aliases": [
+    "Surprised Pikachu face",
+    "Predictable consequences"
+  ],
+  "asset": {
+    "path": "assets/imgflip-155067746.jpg",
+    "sha256": "4c420b3b1bb093530cb088bb84a2409e8b386648c8422f517eb7fa8462bcad97",
+    "url": "https://i.imgflip.com/2kbn1e.jpg"
+  },
+  "id": "imgflip-155067746",
+  "layout": {
+    "status": "reviewed",
+    "units": "relative",
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API.",
+    "boxes": [
+      {
+        "x": 0.025,
+        "y": 0.02,
+        "w": 0.95,
+        "h": 0.245,
+        "role": "White header: choice followed by its predictable result",
+        "color": "#111111",
+        "stroke": 0
+      }
+    ]
+  },
+  "media_type": "image",
+  "name": "Surprised Pikachu",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/155067746",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.892992+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "155067746"
+  },
+  "stats": {
+    "box_count": 3,
+    "captions_lifetime_estimate": 251750,
+    "height": 1893,
+    "list_type": "image",
+    "rank_30d": 78,
+    "width": 1893
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "Pikachu looks shocked at an outcome that was easy to predict.",
+    "visual": "A large white caption area sits above a close-up of Pikachu with wide eyes and an open mouth.",
+    "mechanism": "The exaggerated surprise exposes a refusal to anticipate the obvious consequences of an earlier choice.",
+    "scenarios": [
+      "Skip tests and act shocked when the release contains bugs",
+      "Stay up all night and be surprised by morning exhaustion",
+      "Ignore repeated warnings and be stunned by the expected failure"
+    ],
+    "keywords": [
+      "predictable consequence",
+      "false surprise",
+      "obvious outcome",
+      "ignored warning"
+    ],
+    "emotions": [
+      "surprise",
+      "disbelief"
+    ],
+    "roles": [
+      "White header: choice followed by its predictable result"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Skip tests and deploy\nWait, it has bugs?"
+        ],
+        "why": "The shock is funny because the result follows directly from skipping the safeguard."
+      }
+    ],
+    "avoid": [
+      "The outcome should be predictable to the audience; otherwise the reaction becomes ordinary surprise."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

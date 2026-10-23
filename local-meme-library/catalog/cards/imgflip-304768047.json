@@ -1,0 +1,74 @@
+{
+  "aliases": [
+    "Arguing with a brick wall",
+    "No one is listening"
+  ],
+  "asset": {
+    "path": "assets/imgflip-304768047.mp4",
+    "sha256": "0d2d84146025235f6f2fe0bb5731dee6009d39f2b105075182076db1640c1336",
+    "url": "https://i.imgflip.com/51g8j3.mp4"
+  },
+  "id": "imgflip-304768047",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "video",
+  "name": "talking to wall",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/304768047",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:16.979485+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "304768047"
+  },
+  "stats": {
+    "box_count": 1,
+    "captions_lifetime_estimate": 33000,
+    "height": 360,
+    "list_type": "gif",
+    "rank_30d": 2,
+    "width": 640
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "A person gestures toward a wall that offers no response.",
+    "visual": "A short video shows a man addressing a brick wall with animated gestures.",
+    "mechanism": "Treating an unresponsive wall as the audience literalizes the frustration of explaining something to someone who will not listen.",
+    "scenarios": [
+      "Explain documentation to someone who refuses to read it",
+      "Repeat a reasoned argument to an unresponsive audience",
+      "Try to convince a system that has no mechanism for feedback"
+    ],
+    "keywords": [
+      "unresponsive audience",
+      "futile explanation",
+      "not listening",
+      "brick wall",
+      "ignored argument"
+    ],
+    "emotions": [
+      "frustration",
+      "futility"
+    ],
+    "roles": [
+      "Speaker: person explaining",
+      "Wall: unresponsive listener"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Explaining why documentation matters to someone who never reads it"
+        ],
+        "why": "The wall embodies the listener's complete lack of engagement."
+      }
+    ],
+    "avoid": [
+      "Distinguish a listener who will not engage from someone who simply needs a clearer explanation."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

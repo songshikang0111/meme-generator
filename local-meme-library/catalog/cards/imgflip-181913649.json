@@ -1,0 +1,95 @@
+{
+  "aliases": [
+    "Drake preference",
+    "Reject and approve"
+  ],
+  "asset": {
+    "path": "assets/imgflip-181913649.jpg",
+    "sha256": "09dd77b5bc0a2d3ac717bb3b309bdbd5ad584e19be2843b0dc714a1e387d7926",
+    "url": "https://i.imgflip.com/30b1gx.jpg"
+  },
+  "id": "imgflip-181913649",
+  "layout": {
+    "status": "reviewed",
+    "units": "relative",
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API.",
+    "boxes": [
+      {
+        "x": 0.52,
+        "y": 0.035,
+        "w": 0.45,
+        "h": 0.42,
+        "role": "Upper right: rejected option",
+        "color": "#111111",
+        "stroke": 0
+      },
+      {
+        "x": 0.52,
+        "y": 0.54,
+        "w": 0.45,
+        "h": 0.42,
+        "role": "Lower right: approved option",
+        "color": "#111111",
+        "stroke": 0
+      }
+    ]
+  },
+  "media_type": "image",
+  "name": "Drake Hotline Bling",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/181913649",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.881863+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "181913649"
+  },
+  "stats": {
+    "box_count": 2,
+    "captions_lifetime_estimate": 1578000,
+    "height": 1200,
+    "list_type": "image",
+    "rank_30d": 1,
+    "width": 1200
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "Drake rejects the option in the upper panel and approves the alternative below.",
+    "visual": "Two rows show Drake in an orange jacket on the left, with blank caption space on the right. He recoils above and smiles approvingly below.",
+    "mechanism": "Contrasting rejection and approval makes a preference visible. Choosing the less sensible alternative can reveal procrastination, hypocrisy, or an oddly specific taste.",
+    "scenarios": [
+      "Reject a quick bug fix in favor of rewriting the framework",
+      "Ignore useful work to spend hours customizing the tools",
+      "Prefer an obscure pleasure over the obvious popular choice"
+    ],
+    "keywords": [
+      "preference",
+      "rejection",
+      "approval",
+      "procrastination",
+      "double standard"
+    ],
+    "emotions": [
+      "disapproval",
+      "delight"
+    ],
+    "roles": [
+      "Upper right: rejected option",
+      "Lower right: approved option"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Fix the bug",
+          "Rewrite the framework"
+        ],
+        "why": "The excessive rewrite is preferred to the practical fix."
+      }
+    ],
+    "avoid": [
+      "Keep the upper and lower options in the correct rejection/approval order."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

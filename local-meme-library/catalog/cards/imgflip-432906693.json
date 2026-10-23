@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-432906693",
+  "name": "Zoolander Stare TT",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/75qoxx.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "432906693",
+    "page_url": "https://imgflip.com/memetemplate/432906693",
+    "retrieved_at": "2026-10-23T07:34:16.984741+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 1280,
+    "height": 720,
+    "box_count": 3,
+    "captions_lifetime_estimate": 6000,
+    "rank_30d": 39,
+    "list_type": "gif"
+  }
+}

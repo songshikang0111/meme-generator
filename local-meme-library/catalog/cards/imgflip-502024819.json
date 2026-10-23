@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-502024819",
+  "name": "Surprised Announcer",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/8aw4tv.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "502024819",
+    "page_url": "https://imgflip.com/memetemplate/502024819",
+    "retrieved_at": "2026-10-23T07:34:16.988626+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 480,
+    "height": 326,
+    "box_count": 1,
+    "captions_lifetime_estimate": 2750,
+    "rank_30d": 68,
+    "list_type": "gif"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-446262453",
+  "name": "Nicolas Cage and Pedro Pascal",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/7doyb9.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "446262453",
+    "page_url": "https://imgflip.com/memetemplate/446262453",
+    "retrieved_at": "2026-10-23T07:34:16.993687+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 1280,
+    "height": 720,
+    "box_count": 2,
+    "captions_lifetime_estimate": 3000,
+    "rank_30d": 100,
+    "list_type": "gif"
+  }
+}

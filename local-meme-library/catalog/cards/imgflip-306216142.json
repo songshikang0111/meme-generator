@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-306216142",
+  "name": "Chef Skinner Reading a Letter",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/52b9vy.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "306216142",
+    "page_url": "https://imgflip.com/memetemplate/306216142",
+    "retrieved_at": "2026-10-23T07:34:16.979803+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 420,
+    "height": 236,
+    "box_count": 1,
+    "captions_lifetime_estimate": 26500,
+    "rank_30d": 4,
+    "list_type": "gif"
+  }
+}

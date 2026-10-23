@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-401307780",
+  "name": "happy to sad",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/6mxf2c.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "401307780",
+    "page_url": "https://imgflip.com/memetemplate/401307780",
+    "retrieved_at": "2026-10-23T07:34:16.985498+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 312,
+    "height": 312,
+    "box_count": 2,
+    "captions_lifetime_estimate": 3250,
+    "rank_30d": 45,
+    "list_type": "gif"
+  }
+}

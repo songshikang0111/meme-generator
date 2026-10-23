@@ -1,0 +1,74 @@
+{
+  "aliases": [
+    "Lonely Pablo",
+    "Sad Escobar"
+  ],
+  "asset": {
+    "path": "assets/imgflip-80707627.jpg",
+    "sha256": "c38881f289ed6784de2c5e1064295aa5a58da213a048c657acab06b653fa647c",
+    "url": "https://i.imgflip.com/1c1uej.jpg"
+  },
+  "id": "imgflip-80707627",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "image",
+  "name": "Sad Pablo Escobar",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/80707627",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.884454+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "80707627"
+  },
+  "stats": {
+    "box_count": 3,
+    "captions_lifetime_estimate": 260750,
+    "height": 709,
+    "list_type": "image",
+    "rank_30d": 14,
+    "width": 720
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "A solitary man spends time alone after activity or company has disappeared.",
+    "visual": "A sequence of scenes shows Pablo Escobar sitting or standing alone in different locations.",
+    "mechanism": "The repeated empty scenes dramatize the quiet, aimless feeling left after anticipation or activity ends.",
+    "scenarios": [
+      "Finish every side quest and have nothing left to do",
+      "Wait alone after friends cancel a game night",
+      "Feel empty immediately after completing a long project"
+    ],
+    "keywords": [
+      "loneliness",
+      "emptiness",
+      "after completion",
+      "nothing to do",
+      "boredom"
+    ],
+    "emotions": [
+      "sadness",
+      "boredom"
+    ],
+    "roles": [
+      "Lonely man: person left with idle time",
+      "Surroundings: repeated absence of activity"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Me after finishing every side quest"
+        ],
+        "why": "Finishing the goal creates an unexpectedly empty aftermath."
+      }
+    ],
+    "avoid": [
+      "Do not confuse quiet loneliness with an angry or frantic reaction."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-145139900",
+  "name": "Scooby doo mask reveal",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/2eeunw.jpg"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "145139900",
+    "page_url": "https://imgflip.com/memetemplate/145139900",
+    "retrieved_at": "2026-10-23T07:34:14.891751+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 720,
+    "height": 960,
+    "box_count": 4,
+    "captions_lifetime_estimate": 35000,
+    "rank_30d": 69,
+    "list_type": "image"
+  }
+}

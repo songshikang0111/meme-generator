@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-101288",
+  "name": "Third World Skeptical Kid",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/265k.jpg"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "101288",
+    "page_url": "https://imgflip.com/memetemplate/101288",
+    "retrieved_at": "2026-10-23T07:34:14.895350+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 426,
+    "height": 426,
+    "box_count": 2,
+    "captions_lifetime_estimate": 199750,
+    "rank_30d": 96,
+    "list_type": "image"
+  }
+}

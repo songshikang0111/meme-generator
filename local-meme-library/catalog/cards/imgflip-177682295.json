@@ -1,0 +1,85 @@
+{
+  "aliases": [
+    "Wait you get paid",
+    "You guys get benefits"
+  ],
+  "annotation": {
+    "summary": "Someone discovers that others receive a benefit they never got at all.",
+    "visual": "A young man raises his eyebrows with a startled, questioning expression. The supplied template has no separate white header.",
+    "mechanism": "A conversation about degrees of reward is interrupted by someone excluded from the basic reward itself.",
+    "scenarios": [
+      "Hear colleagues complain about low overtime pay when you get none",
+      "Discover others receive training or documentation you never had",
+      "Learn that another team gets the resources you assumed nobody had"
+    ],
+    "keywords": [
+      "unfair reward",
+      "unpaid",
+      "excluded benefit",
+      "comparison",
+      "surprise"
+    ],
+    "emotions": [
+      "disbelief",
+      "disappointment"
+    ],
+    "roles": [
+      "Questioning person: participant lacking the basic benefit"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Wait, you get paid for overtime?"
+        ],
+        "why": "The speaker is below the baseline that everyone else takes for granted."
+      }
+    ],
+    "avoid": [
+      "The missing benefit should be clear from context."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "asset": {
+    "path": "assets/imgflip-177682295.png",
+    "sha256": "957f3b82f60bfab6a7d6a3b257660be0f4a1961c32b5e83a2bf4d20893fbc752",
+    "url": "https://i.imgflip.com/2xscjb.png"
+  },
+  "id": "imgflip-177682295",
+  "layout": {
+    "boxes": [
+      {
+        "color": "#ffffff",
+        "h": 0.21,
+        "role": "Questioning person: participant lacking the basic benefit",
+        "stroke": 2,
+        "w": 0.95,
+        "x": 0.025,
+        "y": 0.015,
+        "stroke_color": "#000000"
+      }
+    ],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API.",
+    "status": "reviewed",
+    "units": "relative"
+  },
+  "media_type": "image",
+  "name": "You Guys are Getting Paid",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/177682295",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.886583+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "177682295"
+  },
+  "stats": {
+    "box_count": 2,
+    "captions_lifetime_estimate": 75250,
+    "height": 358,
+    "list_type": "image",
+    "rank_30d": 30,
+    "width": 520
+  },
+  "status": "ready",
+  "language": "en"
+}

@@ -1,0 +1,106 @@
+{
+  "aliases": [
+    "Panik Kalm Panik",
+    "Panic calm panic"
+  ],
+  "asset": {
+    "path": "assets/imgflip-226297822.png",
+    "sha256": "4d186215716a180eedde0dc1a8c8be2edc6b6a229b4316a125bdb0b0324df426",
+    "url": "https://i.imgflip.com/3qqcim.png"
+  },
+  "id": "imgflip-226297822",
+  "layout": {
+    "status": "reviewed",
+    "units": "relative",
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API.",
+    "boxes": [
+      {
+        "x": 0.025,
+        "y": 0.025,
+        "w": 0.465,
+        "h": 0.28,
+        "role": "Row 1: initial bad news",
+        "color": "#111111",
+        "stroke": 0
+      },
+      {
+        "x": 0.025,
+        "y": 0.36,
+        "w": 0.465,
+        "h": 0.28,
+        "role": "Row 2: reassuring information",
+        "color": "#111111",
+        "stroke": 0
+      },
+      {
+        "x": 0.025,
+        "y": 0.695,
+        "w": 0.465,
+        "h": 0.28,
+        "role": "Row 3: reassurance undone",
+        "color": "#111111",
+        "stroke": 0
+      }
+    ]
+  },
+  "media_type": "image",
+  "name": "Panik Kalm Panik",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/226297822",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.892037+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "226297822"
+  },
+  "stats": {
+    "box_count": 3,
+    "captions_lifetime_estimate": 227500,
+    "height": 881,
+    "list_type": "image",
+    "rank_30d": 71,
+    "width": 640
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "Bad news causes panic, a reassuring detail restores calm, and a final twist brings the panic back.",
+    "visual": "Three rows pair blank text on the left with an anxious, calm, then anxious character on the right.",
+    "mechanism": "Temporary reassurance is undercut by a worse fact, creating a compact emotional reversal.",
+    "scenarios": [
+      "The database fails, backups exist, but restoring them fails too",
+      "A deadline is delayed until you learn the new scope has doubled",
+      "Lose an item, find a tracker, and discover its battery is dead"
+    ],
+    "keywords": [
+      "panic",
+      "relief",
+      "reversal",
+      "false reassurance",
+      "three stages"
+    ],
+    "emotions": [
+      "panic",
+      "relief"
+    ],
+    "roles": [
+      "Row 1: initial bad news",
+      "Row 2: reassuring information",
+      "Row 3: reassurance undone"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Database is down",
+          "We have backups",
+          "The restore also fails"
+        ],
+        "why": "The backup appears to solve the crisis before the final line removes that solution."
+      }
+    ],
+    "avoid": [
+      "The second line needs to provide a real moment of relief for the third line to undo."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

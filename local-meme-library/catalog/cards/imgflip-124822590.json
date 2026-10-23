@@ -1,0 +1,81 @@
+{
+  "aliases": [
+    "Highway exit",
+    "Swerving car",
+    "Taking the other road"
+  ],
+  "asset": {
+    "path": "assets/imgflip-124822590.jpg",
+    "sha256": "bc131e329034f3ddd91bfbad24d18c194227c083eda40d8c66c17bc66d170816",
+    "url": "https://i.imgflip.com/22bdq6.jpg"
+  },
+  "id": "imgflip-124822590",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "image",
+  "name": "Left Exit 12 Off Ramp",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/124822590",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.883527+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "124822590"
+  },
+  "stats": {
+    "box_count": 3,
+    "captions_lifetime_estimate": 747500,
+    "height": 767,
+    "list_type": "image",
+    "rank_30d": 7,
+    "width": 804
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "A car chooses the exit ramp instead of continuing along the straight road.",
+    "visual": "A highway splits into a straight route and a right-hand exit. Road signs have blank label areas, and a car swerves toward the exit ramp.",
+    "mechanism": "The two routes represent alternative choices, and the car visibly commits to the exit. A sudden, tempting, or ill-advised change of plan can add a second layer of humor.",
+    "scenarios": [
+      "Plan to go to bed but choose to watch another video",
+      "Intend to save money but take the shopping option",
+      "Choose route B at a fork between routes A and B"
+    ],
+    "keywords": [
+      "two roads",
+      "route A",
+      "route B",
+      "choose B",
+      "fork",
+      "exit ramp",
+      "alternative",
+      "change of plan"
+    ],
+    "emotions": [
+      "temptation",
+      "impulsiveness"
+    ],
+    "roles": [
+      "Straight road sign: option A",
+      "Exit sign: chosen option B",
+      "Car: decision maker"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Go to bed",
+          "One more video",
+          "Me"
+        ],
+        "why": "The car takes the tempting alternative to the original plan."
+      }
+    ],
+    "avoid": [
+      "Do not assume the chosen road is bad or surprising unless the requested scenario supports that interpretation."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

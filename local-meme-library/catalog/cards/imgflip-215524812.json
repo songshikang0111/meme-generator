@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-215524812",
+  "name": "Doctor Fate",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/3kbg0c.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "215524812",
+    "page_url": "https://imgflip.com/memetemplate/215524812",
+    "retrieved_at": "2026-10-23T07:34:16.988996+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 1280,
+    "height": 720,
+    "box_count": 3,
+    "captions_lifetime_estimate": 7000,
+    "rank_30d": 71,
+    "list_type": "gif"
+  }
+}

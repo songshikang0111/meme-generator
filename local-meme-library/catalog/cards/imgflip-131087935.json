@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-131087935",
+  "name": "Running Away Balloon",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/261o3j.jpg"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "131087935",
+    "page_url": "https://imgflip.com/memetemplate/131087935",
+    "retrieved_at": "2026-10-23T07:34:14.884170+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 761,
+    "height": 1024,
+    "box_count": 5,
+    "captions_lifetime_estimate": 606500,
+    "rank_30d": 12,
+    "list_type": "image"
+  }
+}

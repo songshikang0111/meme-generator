@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-205604035",
+  "name": "Dancin bois",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/3eet37.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "205604035",
+    "page_url": "https://imgflip.com/memetemplate/205604035",
+    "retrieved_at": "2026-10-23T07:34:16.982914+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 360,
+    "height": 360,
+    "box_count": 1,
+    "captions_lifetime_estimate": 12250,
+    "rank_30d": 26,
+    "list_type": "gif"
+  }
+}

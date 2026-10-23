@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-119215120",
+  "name": "Types of Headaches meme",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/1yz6z4.jpg"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "119215120",
+    "page_url": "https://imgflip.com/memetemplate/119215120",
+    "retrieved_at": "2026-10-23T07:34:14.890510+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 483,
+    "height": 497,
+    "box_count": 2,
+    "captions_lifetime_estimate": 74750,
+    "rank_30d": 60,
+    "list_type": "image"
+  }
+}

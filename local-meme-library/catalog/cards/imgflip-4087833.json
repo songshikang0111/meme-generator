@@ -1,0 +1,74 @@
+{
+  "aliases": [
+    "Skeleton on a bench",
+    "Waiting forever"
+  ],
+  "asset": {
+    "path": "assets/imgflip-4087833.jpg",
+    "sha256": "67eb6e0c9b7d4785d364d4a3f4713de7980750fa2b6ba227cc75e7dffb6fd39e",
+    "url": "https://i.imgflip.com/2fm6x.jpg"
+  },
+  "id": "imgflip-4087833",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "image",
+  "name": "Waiting Skeleton",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/4087833",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.884304+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "4087833"
+  },
+  "stats": {
+    "box_count": 2,
+    "captions_lifetime_estimate": 499250,
+    "height": 403,
+    "list_type": "image",
+    "rank_30d": 13,
+    "width": 298
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "A skeleton waits on a bench as if the promised event will never arrive.",
+    "visual": "A skeleton sits on an outdoor bench with a patient posture.",
+    "mechanism": "An ordinary wait is exaggerated beyond a human lifetime.",
+    "scenarios": [
+      "Wait for a promised reply that was supposed to take five minutes",
+      "Keep waiting for a delayed release date",
+      "Watch a progress bar that never finishes"
+    ],
+    "keywords": [
+      "waiting",
+      "delay",
+      "no reply",
+      "endless wait",
+      "patience"
+    ],
+    "emotions": [
+      "impatience",
+      "resignation"
+    ],
+    "roles": [
+      "Skeleton: person waiting",
+      "Caption: promised event or response"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Waiting for 'I'll reply in five minutes'"
+        ],
+        "why": "The skeleton makes a short promised wait absurdly long."
+      }
+    ],
+    "avoid": [
+      "Use for prolonged waiting rather than an immediate surprised reaction."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

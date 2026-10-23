@@ -1,0 +1,73 @@
+{
+  "aliases": [
+    "Think about it",
+    "Tapping temple"
+  ],
+  "asset": {
+    "path": "assets/imgflip-89370399.jpg",
+    "sha256": "c6b0bcbe4e6476bb87ad2cf0ab42e4786abc42e7809f5edb466b4edd7db689bd",
+    "url": "https://i.imgflip.com/1h7in3.jpg"
+  },
+  "id": "imgflip-89370399",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "image",
+  "name": "Roll Safe Think About It",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/89370399",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.888988+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "89370399"
+  },
+  "stats": {
+    "box_count": 2,
+    "captions_lifetime_estimate": 346000,
+    "height": 395,
+    "list_type": "image",
+    "rank_30d": 49,
+    "width": 702
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "A man taps his temple as if he has found a clever loophole.",
+    "visual": "A smiling man in a dark jacket points a finger at his temple.",
+    "mechanism": "The caption presents superficially clever logic that often solves a problem by abandoning the original goal.",
+    "scenarios": [
+      "Avoid production bugs by never deploying anything",
+      "Avoid rejection by never applying",
+      "Claim a metric improved after stopping the activity it measures"
+    ],
+    "keywords": [
+      "loophole",
+      "flawed logic",
+      "technicality",
+      "avoid the goal",
+      "smug reasoning"
+    ],
+    "emotions": [
+      "smugness",
+      "amusement"
+    ],
+    "roles": [
+      "Temple-tapping man: person claiming a clever solution"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "No production bugs if we never deploy"
+        ],
+        "why": "The loophole removes useful work along with the risk."
+      }
+    ],
+    "avoid": [
+      "Expose a recognizable flaw in the logic rather than attach an unrelated observation."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

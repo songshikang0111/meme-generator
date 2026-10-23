@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-72525473",
+  "name": "say the line bart! simpsons",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/176h0h.jpg"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "72525473",
+    "page_url": "https://imgflip.com/memetemplate/72525473",
+    "retrieved_at": "2026-10-23T07:34:14.893534+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 395,
+    "height": 650,
+    "box_count": 3,
+    "captions_lifetime_estimate": 32250,
+    "rank_30d": 82,
+    "list_type": "image"
+  }
+}

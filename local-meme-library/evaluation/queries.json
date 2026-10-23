@@ -1,0 +1,232 @@
+[
+  {
+    "query": "Choosing road B at a fork between roads A and B",
+    "relevant": [
+      "imgflip-124822590"
+    ],
+    "group": "user-intent"
+  },
+  {
+    "query": "Everything is broken but the manager insists it is all fine",
+    "relevant": [
+      "imgflip-55311130"
+    ],
+    "group": "scenario"
+  },
+  {
+    "query": "I want to leave on time and also finish every feature; I cannot choose",
+    "relevant": [
+      "imgflip-87743020"
+    ],
+    "group": "scenario"
+  },
+  {
+    "query": "I skipped the tests myself and then blamed the framework for the failure",
+    "relevant": [
+      "imgflip-79132341"
+    ],
+    "group": "scenario"
+  },
+  {
+    "query": "An employee gives a useful suggestion and gets kicked out of the meeting",
+    "relevant": [
+      "imgflip-1035805"
+    ],
+    "group": "scenario"
+  },
+  {
+    "query": "My coworkers complain about low overtime pay but I get none",
+    "relevant": [
+      "imgflip-177682295"
+    ],
+    "group": "scenario"
+  },
+  {
+    "query": "There is a useful simple tool but I insist on building a more complicated one",
+    "relevant": [
+      "imgflip-181913649",
+      "imgflip-93895088"
+    ],
+    "group": "scenario"
+  },
+  {
+    "query": "I knew skipping tests would cause bugs but still acted shocked",
+    "relevant": [
+      "imgflip-155067746"
+    ],
+    "group": "scenario"
+  },
+  {
+    "query": "A tiny problem gets more elaborate solutions until we create a committee",
+    "relevant": [
+      "imgflip-93895088"
+    ],
+    "group": "scenario"
+  },
+  {
+    "query": "The client promised a reply soon and I have been waiting forever",
+    "relevant": [
+      "imgflip-4087833"
+    ],
+    "group": "scenario"
+  },
+  {
+    "query": "Two products have different names but are actually identical",
+    "relevant": [
+      "imgflip-180190441"
+    ],
+    "group": "scenario"
+  },
+  {
+    "query": "The service failed, luckily we have backups, but the backups are broken too",
+    "relevant": [
+      "imgflip-226297822"
+    ],
+    "group": "scenario"
+  },
+  {
+    "query": "I blame the framework after disabling all tests",
+    "relevant": [
+      "imgflip-79132341"
+    ],
+    "group": "scenario"
+  },
+  {
+    "query": "I promised to sleep early but immediately abandoned that idea for a game invitation",
+    "relevant": [
+      "imgflip-84341851",
+      "imgflip-124822590",
+      "imgflip-112126428"
+    ],
+    "group": "paraphrase"
+  },
+  {
+    "query": "They keep promising feedback shortly, but it has been half a month",
+    "relevant": [
+      "imgflip-4087833"
+    ],
+    "group": "paraphrase"
+  },
+  {
+    "query": "I dug my own hole and now complain about my surroundings",
+    "relevant": [
+      "imgflip-79132341"
+    ],
+    "group": "paraphrase"
+  },
+  {
+    "query": "I have been explaining seriously for ages and the other side acts like they heard nothing",
+    "relevant": [
+      "imgflip-304768047"
+    ],
+    "group": "paraphrase"
+  },
+  {
+    "query": "One person enthusiastically presents a plan while the other gradually realizes something is wrong",
+    "relevant": [
+      "imgflip-322841258"
+    ],
+    "group": "paraphrase"
+  },
+  {
+    "query": "Everyone is showing off their bonuses and I do not even receive a salary",
+    "relevant": [
+      "imgflip-177682295"
+    ],
+    "group": "paraphrase"
+  },
+  {
+    "query": "As soon as someone asks who is available to work I quietly leave the chat",
+    "relevant": [
+      "imgflip-222516354",
+      "imgflip-171219241"
+    ],
+    "group": "paraphrase"
+  },
+  {
+    "query": "Two people have different jobs but both hate the same thing",
+    "relevant": [
+      "imgflip-135256802"
+    ],
+    "group": "paraphrase"
+  },
+  {
+    "query": "I secretly enjoy watching someone else have a disaster",
+    "relevant": [
+      "imgflip-97984"
+    ],
+    "group": "paraphrase"
+  },
+  {
+    "query": "The same requirement was repackaged and sold to me again",
+    "relevant": [
+      "imgflip-180190441"
+    ],
+    "group": "paraphrase"
+  },
+  {
+    "query": "At every step I thought I was clever, then realized I had become a joke",
+    "relevant": [
+      "imgflip-195515965",
+      "imgflip-93895088"
+    ],
+    "group": "paraphrase"
+  },
+  {
+    "query": "The supposed new technology turns out to have been manual from the start",
+    "relevant": [
+      "imgflip-252600902"
+    ],
+    "group": "paraphrase"
+  },
+  {
+    "query": "The server crashed, the saved data exists, but it cannot be restored",
+    "relevant": [
+      "imgflip-226297822"
+    ],
+    "group": "paraphrase"
+  },
+  {
+    "query": "I used to make bold promises but now I am timid and helpless",
+    "relevant": [
+      "imgflip-247375501"
+    ],
+    "group": "paraphrase"
+  },
+  {
+    "query": "If I never do anything, I cannot make any mistakes",
+    "relevant": [
+      "imgflip-89370399"
+    ],
+    "group": "paraphrase"
+  },
+  {
+    "query": "Management lavishes attention on the new thing while the old system rots unnoticed",
+    "relevant": [
+      "imgflip-252758727"
+    ],
+    "group": "paraphrase"
+  },
+  {
+    "query": "I want the meme about swerving towards option B instead of A",
+    "relevant": [
+      "imgflip-124822590"
+    ],
+    "group": "paraphrase"
+  },
+  {
+    "query": "What is the weather in Taipei tomorrow?",
+    "relevant": [],
+    "group": "unrelated"
+  },
+  {
+    "query": "Teach me to cook tomato and egg noodles",
+    "relevant": [],
+    "group": "unrelated"
+  },
+  {
+    "query": "Where is the nearest bank?",
+    "relevant": [],
+    "group": "unrelated"
+  }
+]

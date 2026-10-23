@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-27813981",
+  "name": "Hide the Pain Harold",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/gk5el.jpg"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "27813981",
+    "page_url": "https://imgflip.com/memetemplate/27813981",
+    "retrieved_at": "2026-10-23T07:34:14.889131+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 480,
+    "height": 601,
+    "box_count": 2,
+    "captions_lifetime_estimate": 247250,
+    "rank_30d": 50,
+    "list_type": "image"
+  }
+}

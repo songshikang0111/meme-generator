@@ -1,0 +1,106 @@
+{
+  "aliases": [
+    "Daily struggle",
+    "Sweating over two buttons"
+  ],
+  "asset": {
+    "path": "assets/imgflip-87743020.jpg",
+    "sha256": "08687760b78d7ae87731865c631ddf414c6a0b0fe349e54947290ecc7fd19e07",
+    "url": "https://i.imgflip.com/1g8my4.jpg"
+  },
+  "id": "imgflip-87743020",
+  "layout": {
+    "status": "reviewed",
+    "units": "relative",
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API.",
+    "boxes": [
+      {
+        "x": 0.075,
+        "y": 0.125,
+        "w": 0.29,
+        "h": 0.075,
+        "role": "Left button: first option",
+        "color": "#111111",
+        "stroke": 0
+      },
+      {
+        "x": 0.46,
+        "y": 0.075,
+        "w": 0.245,
+        "h": 0.073,
+        "role": "Right button: competing option",
+        "color": "#111111",
+        "stroke": 0
+      },
+      {
+        "x": 0.12,
+        "y": 0.855,
+        "w": 0.72,
+        "h": 0.07,
+        "role": "Lower person: decision maker",
+        "color": "#111111",
+        "stroke": 0
+      }
+    ]
+  },
+  "media_type": "image",
+  "name": "Two Buttons",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/87743020",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.882502+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "87743020"
+  },
+  "stats": {
+    "box_count": 3,
+    "captions_lifetime_estimate": 1226750,
+    "height": 908,
+    "list_type": "image",
+    "rank_30d": 2,
+    "width": 600
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "A sweating person struggles to choose between two buttons.",
+    "visual": "The upper panel contains two red buttons and a hovering hand. Below, a person wipes sweat from their forehead.",
+    "mechanism": "Two appealing but incompatible demands, or two conflicting beliefs, turn a small decision into an exaggerated crisis.",
+    "scenarios": [
+      "Want to leave work on time and also finish one more feature",
+      "Choose between saving money and buying a new gadget",
+      "Publicly support two beliefs that contradict each other"
+    ],
+    "keywords": [
+      "dilemma",
+      "incompatible goals",
+      "two choices",
+      "indecision",
+      "contradiction"
+    ],
+    "emotions": [
+      "anxiety",
+      "indecision"
+    ],
+    "roles": [
+      "Left button: first option",
+      "Right button: competing option",
+      "Lower person: decision maker"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Leave on time",
+          "One more feature",
+          "Me on Friday"
+        ],
+        "why": "The person wants both outcomes, which compete for the same time."
+      }
+    ],
+    "avoid": [
+      "The struggle should come from a recognizable conflict between the two choices."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

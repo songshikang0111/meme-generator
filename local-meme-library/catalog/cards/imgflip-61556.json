@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-61556",
+  "name": "Grandma Finds The Internet",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/1bhw.jpg"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "61556",
+    "page_url": "https://imgflip.com/memetemplate/61556",
+    "retrieved_at": "2026-10-23T07:34:14.894450+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 640,
+    "height": 480,
+    "box_count": 2,
+    "captions_lifetime_estimate": 178250,
+    "rank_30d": 89,
+    "list_type": "image"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-491095002",
+  "name": "lego batman",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/84dvbu.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "491095002",
+    "page_url": "https://imgflip.com/memetemplate/491095002",
+    "retrieved_at": "2026-10-23T07:34:16.991956+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 828,
+    "height": 342,
+    "box_count": 1,
+    "captions_lifetime_estimate": 2500,
+    "rank_30d": 87,
+    "list_type": "gif"
+  }
+}

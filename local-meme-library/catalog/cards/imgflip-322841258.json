@@ -1,0 +1,79 @@
+{
+  "aliases": [
+    "For the better right",
+    "Anakin and Padme"
+  ],
+  "asset": {
+    "path": "assets/imgflip-322841258.png",
+    "sha256": "e00a512457899c0c6d8ef6d72069596d06c8300248947b6414058acab2f9a630",
+    "url": "https://i.imgflip.com/5c7lwq.png"
+  },
+  "id": "imgflip-322841258",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "image",
+  "name": "Anakin Padme 4 Panel",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/322841258",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:14.883667+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "322841258"
+  },
+  "stats": {
+    "box_count": 3,
+    "captions_lifetime_estimate": 156500,
+    "height": 768,
+    "list_type": "image",
+    "rank_30d": 8,
+    "width": 768
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "A cheerful follow-up question becomes worried when an apparently positive statement receives no reassurance.",
+    "visual": "Four panels alternate between Anakin speaking and Padme reacting. Her initial smile becomes a concerned expression in the final panel.",
+    "mechanism": "A missing answer exposes the ominous implication of an initially reassuring plan. Repeating the question turns optimism into doubt.",
+    "scenarios": [
+      "Hear that efficiency is improving and ask whether working hours will shrink",
+      "Learn that data collection is increasing and ask whether consent is required",
+      "Be promised a simpler process without being told who does the extra work"
+    ],
+    "keywords": [
+      "ominous implication",
+      "unanswered question",
+      "reassurance",
+      "optimism",
+      "doubt"
+    ],
+    "emotions": [
+      "hope",
+      "concern"
+    ],
+    "roles": [
+      "Panel 1: apparently positive proposal",
+      "Panel 2: hopeful question",
+      "Panel 3: silence or evasive response",
+      "Panel 4: worried repeated question"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "We're improving efficiency",
+          "So we can go home early?",
+          "",
+          "We can go home early, right?"
+        ],
+        "why": "The silence makes the hoped-for benefit doubtful."
+      }
+    ],
+    "avoid": [
+      "Preserve the shift from optimism to worry; do not put the full answer in the silent panel."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-187397945",
+  "name": "Spongebob Searching",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/33kl6h.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "187397945",
+    "page_url": "https://imgflip.com/memetemplate/187397945",
+    "retrieved_at": "2026-10-23T07:34:16.990517+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 220,
+    "height": 122,
+    "box_count": 1,
+    "captions_lifetime_estimate": 5500,
+    "rank_30d": 77,
+    "list_type": "gif"
+  }
+}

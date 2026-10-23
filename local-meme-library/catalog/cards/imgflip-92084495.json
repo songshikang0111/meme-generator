@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-92084495",
+  "name": "Charlie Conspiracy (Always Sunny in Philidelphia)",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "asset": {
+    "url": "https://i.imgflip.com/1itoun.jpg"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "92084495",
+    "page_url": "https://imgflip.com/memetemplate/92084495",
+    "retrieved_at": "2026-10-23T07:34:14.895097+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 1024,
+    "height": 768,
+    "box_count": 2,
+    "captions_lifetime_estimate": 42000,
+    "rank_30d": 94,
+    "list_type": "image"
+  }
+}

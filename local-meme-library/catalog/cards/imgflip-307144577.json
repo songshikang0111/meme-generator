@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-307144577",
+  "name": "Stewie Griffin angry gif template",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/52v69t.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "307144577",
+    "page_url": "https://imgflip.com/memetemplate/307144577",
+    "retrieved_at": "2026-10-23T07:34:16.990692+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 640,
+    "height": 360,
+    "box_count": 1,
+    "captions_lifetime_estimate": 2750,
+    "rank_30d": 78,
+    "list_type": "gif"
+  }
+}

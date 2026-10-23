@@ -1,0 +1,183 @@
+[
+  {
+    "id": "denial",
+    "terms": [
+      "this is fine",
+      "everything is fine",
+      "denial"
+    ]
+  },
+  {
+    "id": "impossible-choice",
+    "terms": [
+      "impossible choice",
+      "two buttons",
+      "dilemma"
+    ]
+  },
+  {
+    "id": "temptation",
+    "terms": [
+      "temptation",
+      "distracted boyfriend"
+    ]
+  },
+  {
+    "id": "hypocritical-preference",
+    "terms": [
+      "drake",
+      "reject approve"
+    ]
+  },
+  {
+    "id": "self-inflicted",
+    "terms": [
+      "blame others",
+      "self inflicted",
+      "bike fall"
+    ]
+  },
+  {
+    "id": "unwanted-truth",
+    "terms": [
+      "boardroom",
+      "unwanted truth"
+    ]
+  },
+  {
+    "id": "escalation",
+    "terms": [
+      "expanding brain",
+      "escalation",
+      "overengineering"
+    ]
+  },
+  {
+    "id": "plan-backfires",
+    "terms": [
+      "gru plan",
+      "backfire"
+    ]
+  },
+  {
+    "id": "false-surprise",
+    "terms": [
+      "surprised pikachu",
+      "predictable consequence"
+    ]
+  },
+  {
+    "id": "contrast",
+    "terms": [
+      "expectation reality",
+      "before after"
+    ]
+  },
+  {
+    "id": "endless-wait",
+    "terms": [
+      "waiting skeleton",
+      "waiting forever"
+    ]
+  },
+  {
+    "id": "unfair-reward",
+    "terms": [
+      "you guys are getting paid"
+    ]
+  },
+  {
+    "id": "asking-again",
+    "terms": [
+      "once again asking",
+      "asking again"
+    ]
+  },
+  {
+    "id": "hidden-context",
+    "terms": [
+      "always has been",
+      "hidden truth"
+    ]
+  },
+  {
+    "id": "equivalence",
+    "terms": [
+      "same picture",
+      "equivalent"
+    ]
+  },
+  {
+    "id": "avoidance",
+    "terms": [
+      "disappear",
+      "avoidance",
+      "homer bush"
+    ]
+  },
+  {
+    "id": "disaster-delight",
+    "terms": [
+      "disaster girl",
+      "schadenfreude"
+    ]
+  },
+  {
+    "id": "sudden-exit",
+    "terms": [
+      "exit ramp",
+      "sudden change"
+    ]
+  },
+  {
+    "id": "angry-conflict",
+    "terms": [
+      "woman yelling at cat",
+      "argument"
+    ]
+  },
+  {
+    "id": "silent-sadness",
+    "terms": [
+      "sad pablo",
+      "lonely",
+      "sadness"
+    ]
+  },
+  {
+    "id": "win-win",
+    "terms": [
+      "epic handshake",
+      "agreement"
+    ]
+  },
+  {
+    "id": "bad-choice",
+    "terms": [
+      "draw 25",
+      "uno"
+    ]
+  },
+  {
+    "id": "ignored-priority",
+    "terms": [
+      "ignored",
+      "drowning"
+    ]
+  },
+  {
+    "id": "strong-weak",
+    "terms": [
+      "swole doge",
+      "cheems",
+      "strong weak"
+    ]
+  },
+  {
+    "id": "chaos-panic",
+    "terms": [
+      "panic",
+      "overwhelmed"
+    ]
+  }
+]

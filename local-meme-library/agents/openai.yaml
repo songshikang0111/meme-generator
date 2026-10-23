@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local Meme Library"
+  short_description: "Find meme candidates and create captions or remixes."
+  default_prompt: "Use $local-meme-library to translate my intent into an English embedding query, retrieve five candidate templates, inspect the best fits, and help me make a meme."

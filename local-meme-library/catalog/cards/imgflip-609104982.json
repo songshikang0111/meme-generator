@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-609104982",
+  "name": "Lizard button",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "asset": {
+    "url": "https://i.imgflip.com/a2n8eu.mp4"
+  },
+  "source": {
+    "provider": "imgflip",
+    "template_id": "609104982",
+    "page_url": "https://imgflip.com/memetemplate/609104982",
+    "retrieved_at": "2026-10-23T07:34:16.982034+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  },
+  "stats": {
+    "width": 1440,
+    "height": 1080,
+    "box_count": 1,
+    "captions_lifetime_estimate": 3500,
+    "rank_30d": 20,
+    "list_type": "gif"
+  }
+}

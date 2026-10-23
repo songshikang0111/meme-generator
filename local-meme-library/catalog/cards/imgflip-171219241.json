@@ -1,0 +1,74 @@
+{
+  "aliases": [
+    "Homer backing into hedge",
+    "Homer bush exit"
+  ],
+  "asset": {
+    "path": "assets/imgflip-171219241.mp4",
+    "sha256": "9e045c26b6c8c680a5b7eb50e433fdb5085709f5d56ead75df106beba615e68e",
+    "url": "https://i.imgflip.com/2txtm1.mp4"
+  },
+  "id": "imgflip-171219241",
+  "layout": {
+    "status": "unreviewed",
+    "boxes": [],
+    "note": "Positions reviewed against this source asset by the library editor; not default coordinates returned by the Imgflip API."
+  },
+  "media_type": "video",
+  "name": "Homer disappears into bush",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/171219241",
+    "provider": "imgflip",
+    "retrieved_at": "2026-10-23T07:34:16.980484+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "171219241"
+  },
+  "stats": {
+    "box_count": 1,
+    "captions_lifetime_estimate": 26000,
+    "height": 198,
+    "list_type": "gif",
+    "rank_30d": 9,
+    "width": 266
+  },
+  "status": "ready",
+  "annotation": {
+    "summary": "Homer slowly backs into a hedge to withdraw from an awkward situation.",
+    "visual": "A short animated clip shows Homer Simpson facing forward and gradually disappearing backward into dense green bushes.",
+    "mechanism": "The conspicuously slow attempt to become invisible expresses embarrassment, retreat, or withdrawal after an awkward revelation.",
+    "scenarios": [
+      "Claim a bug is not yours before seeing your name in git blame",
+      "Realize an opinion is unpopular and quietly leave",
+      "Withdraw after accidentally joining the wrong conversation"
+    ],
+    "keywords": [
+      "awkward retreat",
+      "embarrassment",
+      "withdrawal",
+      "disappear",
+      "bushes"
+    ],
+    "emotions": [
+      "embarrassment",
+      "avoidance"
+    ],
+    "roles": [
+      "Homer: person quietly withdrawing",
+      "Hedge: visual escape from the situation"
+    ],
+    "examples": [
+      {
+        "texts": [
+          "Me: definitely not my code\nGit blame: my name"
+        ],
+        "why": "The evidence triggers an embarrassed retreat."
+      }
+    ],
+    "avoid": [
+      "Preserve the gradual retreat when using the video; it differs from an instant vanishing gag."
+    ],
+    "basis": "Creative interpretation based on inspected source media; not a verified account of historical origin."
+  },
+  "language": "en"
+}
