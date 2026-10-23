@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-39633",
+  "name": "Dinkleberg",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "39633",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/meme/39633/Dinkleberg",
+    "retrieved_at": "2026-10-23T08:43:16.674011+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/memetemplates?page=4",
+      "listing_rank": 148,
+      "listing_page": 4,
+      "retrieved_at": "2026-10-23T08:43:16.674011+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 146,
+      "ranking_basis": "public_mixed_top_30_days_filtered_to_images"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/4/ukx.jpg",
+    "original_url_candidate": "https://i.imgflip.com/ukx.jpg",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 148
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

@@ -7,7 +7,8 @@
   "asset": {
     "path": "assets/imgflip-124822590.jpg",
     "sha256": "bc131e329034f3ddd91bfbad24d18c194227c083eda40d8c66c17bc66d170816",
-    "url": "https://i.imgflip.com/22bdq6.jpg"
+    "url": "https://i.imgflip.com/22bdq6.jpg",
+    "preview_url": "https://i.imgflip.com/4/22bdq6.jpg"
   },
   "id": "imgflip-124822590",
   "layout": {
@@ -23,7 +24,16 @@
     "provider": "imgflip",
     "retrieved_at": "2026-10-23T07:34:14.883527+00:00",
     "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
-    "template_id": "124822590"
+    "template_id": "124822590",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/memetemplates",
+      "listing_rank": 7,
+      "listing_page": 1,
+      "retrieved_at": "2026-10-23T08:42:32.095493+00:00",
+      "id_basis": "base36_thumbnail_filename",
+      "type_rank": 7,
+      "ranking_basis": "public_mixed_top_30_days_filtered_to_images"
+    }
   },
   "stats": {
     "box_count": 3,
@@ -31,7 +41,8 @@
     "height": 767,
     "list_type": "image",
     "rank_30d": 7,
-    "width": 804
+    "width": 804,
+    "public_listing_rank": 7
   },
   "status": "ready",
   "annotation": {

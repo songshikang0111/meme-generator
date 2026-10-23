@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-547497453",
+  "name": "X situation is crazy",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "547497453",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/meme/547497453/X-situation-is-crazy",
+    "retrieved_at": "2026-10-23T08:47:03.923040+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/memetemplates?page=14",
+      "listing_rank": 536,
+      "listing_page": 14,
+      "retrieved_at": "2026-10-23T08:47:03.923040+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 493,
+      "ranking_basis": "public_mixed_top_30_days_filtered_to_images"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/4/91yrql.jpg",
+    "original_url_candidate": "https://i.imgflip.com/91yrql.jpg",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 536
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-248110290",
+  "name": "Squidward pointing",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "248110290",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/meme/248110290/Squidward-pointing",
+    "retrieved_at": "2026-10-23T08:45:07.717941+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/memetemplates?page=11",
+      "listing_rank": 434,
+      "listing_page": 11,
+      "retrieved_at": "2026-10-23T08:45:07.717941+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 405,
+      "ranking_basis": "public_mixed_top_30_days_filtered_to_images"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/4/43pv4i.jpg",
+    "original_url_candidate": "https://i.imgflip.com/43pv4i.jpg",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 434
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

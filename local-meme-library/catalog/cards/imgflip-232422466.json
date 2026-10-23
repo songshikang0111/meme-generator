@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-232422466",
+  "name": "Crying Hulk",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "232422466",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/meme/232422466/Crying-Hulk",
+    "retrieved_at": "2026-10-23T08:45:14.169669+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/memetemplates?page=13",
+      "listing_rank": 483,
+      "listing_page": 13,
+      "retrieved_at": "2026-10-23T08:45:14.169669+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 445,
+      "ranking_basis": "public_mixed_top_30_days_filtered_to_images"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/4/3udmbm.jpg",
+    "original_url_candidate": "https://i.imgflip.com/3udmbm.jpg",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 483
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-210116922",
+  "name": "Party rockin with everybody",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "210116922",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/memetemplate/210116922/Party-rockin-with-everybody",
+    "retrieved_at": "2026-10-23T08:45:52.844720+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/gif-templates?page=13",
+      "listing_rank": 483,
+      "listing_page": 13,
+      "retrieved_at": "2026-10-23T08:45:52.844720+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 483,
+      "ranking_basis": "public_popular_listing_unspecified_time_window"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/2/3h3j96.jpg",
+    "original_url_candidate": "https://i.imgflip.com/3h3j96.mp4",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 483
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

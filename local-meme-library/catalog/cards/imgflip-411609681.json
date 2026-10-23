@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "asset": {
+    "original_url_candidate": "https://i.imgflip.com/6t2829.mp4",
+    "preview_url": "https://i.imgflip.com/2/6t2829.jpg",
+    "url_status": "confirmed_on_public_detail_page",
+    "url": "https://i.imgflip.com/6t2829.mp4",
+    "path": "assets/imgflip-411609681.mp4",
+    "sha256": "1e98591cbd18f22f569ba619baa9314950227d0cfc54fdbd1620a7d5bbe9189a"
+  },
+  "id": "imgflip-411609681",
+  "language": "en",
+  "layout": {
+    "boxes": [],
+    "status": "unreviewed"
+  },
+  "media_type": "video",
+  "name": "\"Dad, what is ___\"",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/memetemplate/411609681/Dad-what-is-",
+    "provider": "imgflip",
+    "public_listing": {
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "listing_page": 4,
+      "listing_rank": 121,
+      "listing_url": "https://imgflip.com/gif-templates?page=4",
+      "ranking_basis": "public_popular_listing_unspecified_time_window",
+      "retrieved_at": "2026-10-23T08:45:25.866738+00:00",
+      "type_rank": 121
+    },
+    "retrieved_at": "2026-10-23T08:45:25.866738+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "411609681",
+    "media_resolution": {
+      "url": "https://imgflip.com/memetemplate/411609681",
+      "retrieved_at": "2026-10-23T08:47:26.889757+00:00",
+      "sha256": "9c9388742eb20dd316bcd5e64512adb64cc1e54737373ae353f0e73876495422"
+    }
+  },
+  "stats": {
+    "public_listing_rank": 121,
+    "width": 358,
+    "height": 346
+  },
+  "status": "draft"
+}

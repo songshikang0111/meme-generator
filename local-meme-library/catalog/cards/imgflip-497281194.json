@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-497281194",
+  "name": "Victoria David Beckham Be Honest",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "497281194",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/meme/497281194/Victoria-David-Beckham-Be-Honest",
+    "retrieved_at": "2026-10-23T08:43:28.612540+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/memetemplates?page=8",
+      "listing_rank": 302,
+      "listing_page": 8,
+      "retrieved_at": "2026-10-23T08:43:28.612540+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 289,
+      "ranking_basis": "public_mixed_top_30_days_filtered_to_images"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/4/882gmi.jpg",
+    "original_url_candidate": "https://i.imgflip.com/882gmi.jpg",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 302
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

@@ -6,7 +6,8 @@
   "asset": {
     "path": "assets/imgflip-195515965.jpg",
     "sha256": "11969d438f8df4ea8915047cd66f4b8e55b854bcf2d0a36fffc50c528b62020a",
-    "url": "https://i.imgflip.com/38el31.jpg"
+    "url": "https://i.imgflip.com/38el31.jpg",
+    "preview_url": "https://i.imgflip.com/4/38el31.jpg"
   },
   "id": "imgflip-195515965",
   "layout": {
@@ -60,7 +61,16 @@
     "provider": "imgflip",
     "retrieved_at": "2026-10-23T07:34:14.889393+00:00",
     "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
-    "template_id": "195515965"
+    "template_id": "195515965",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/memetemplates?page=2",
+      "listing_rank": 52,
+      "listing_page": 2,
+      "retrieved_at": "2026-10-23T08:43:10.621733+00:00",
+      "id_basis": "base36_thumbnail_filename",
+      "type_rank": 52,
+      "ranking_basis": "public_mixed_top_30_days_filtered_to_images"
+    }
   },
   "stats": {
     "box_count": 4,
@@ -68,7 +78,8 @@
     "height": 798,
     "list_type": "image",
     "rank_30d": 52,
-    "width": 750
+    "width": 750,
+    "public_listing_rank": 52
   },
   "status": "ready",
   "annotation": {

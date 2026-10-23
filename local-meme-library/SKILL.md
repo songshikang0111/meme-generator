@@ -43,4 +43,6 @@ scripts/meme stats
 
 Sync preserves existing annotations and layouts; it adds new templates as drafts without downloading everything. Drafts are excluded from semantic retrieval. Inspect media and complete English annotations before setting a card ready. `put` updates one card's database records; `embed --offline` encodes only new or changed documents. After direct JSON edits, run `build` then `embed --offline`.
 
+To extend beyond the free API's top 100 per type, read [references/imgflip-collection.md](references/imgflip-collection.md). Its bounded public-HTML collector can select up to 500 unique images and 500 animated templates with robots checks, rate limits, caching, and provenance. GIF website ranking has an unspecified time window. New imports remain drafts; original media URLs are confirmed from public detail pages when `download` is requested.
+
 Card JSON is the editable source. SQLite stores metadata and text documents; `vectors.npz` stores embeddings. Searching uses indexes rather than opening every card. Semantic retrieval does not require an exhaustive synonym dictionary. Installation, scaling limits, and candidate recall checks are in [references/retrieval.md](references/retrieval.md).

@@ -61,6 +61,8 @@ class LibraryTests(unittest.TestCase):
 
     def test_sync_preserves_editorial_and_layout(self):
         before = meme.get_card(self.library, 'imgflip-181913649')
+        before['stats']['public_listing_rank'] = 42
+        meme.put(self.library, before)
         response = {'success': True, 'data': {'memes': [{'id': '181913649', 'name': 'Provider name changed',
             'url': 'https://i.imgflip.com/30b1gx.jpg', 'width': 1200, 'height': 1200, 'box_count': 2, 'captions': 99}]}}
         with patch.object(meme, 'request', return_value=(json.dumps(response).encode(), 'application/json')):
@@ -70,6 +72,7 @@ class LibraryTests(unittest.TestCase):
         self.assertEqual(before['layout'], after['layout'])
         self.assertEqual(before['aliases'], after['aliases'])
         self.assertEqual(after['stats']['captions_lifetime_estimate'], 99)
+        self.assertEqual(after['stats']['public_listing_rank'], before['stats']['public_listing_rank'])
 
     def test_invalid_put_does_not_replace_good_card(self):
         before = meme.get_card(self.library, 'imgflip-181913649')

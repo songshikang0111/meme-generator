@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-394971712",
+  "name": "skeleton burning",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "394971712",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/memetemplate/394971712/skeleton-burning",
+    "retrieved_at": "2026-10-23T08:45:29.073914+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/gif-templates?page=5",
+      "listing_rank": 186,
+      "listing_page": 5,
+      "retrieved_at": "2026-10-23T08:45:29.073914+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 186,
+      "ranking_basis": "public_popular_listing_unspecified_time_window"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/2/6j5m4g.jpg",
+    "original_url_candidate": "https://i.imgflip.com/6j5m4g.mp4",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 186
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

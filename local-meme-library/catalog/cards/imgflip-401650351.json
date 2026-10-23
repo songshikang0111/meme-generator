@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-401650351",
+  "name": "John Daly and Tiger Woods",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "401650351",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/meme/401650351/John-Daly-and-Tiger-Woods",
+    "retrieved_at": "2026-10-23T08:45:01.746426+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/memetemplates?page=9",
+      "listing_rank": 344,
+      "listing_page": 9,
+      "retrieved_at": "2026-10-23T08:45:01.746426+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 327,
+      "ranking_basis": "public_mixed_top_30_days_filtered_to_images"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/4/6n4re7.jpg",
+    "original_url_candidate": "https://i.imgflip.com/6n4re7.jpg",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 344
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

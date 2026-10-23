@@ -6,14 +6,24 @@
   "status": "draft",
   "media_type": "image",
   "asset": {
-    "url": "https://i.imgflip.com/2896ro.jpg"
+    "url": "https://i.imgflip.com/2896ro.jpg",
+    "preview_url": "https://i.imgflip.com/4/2896ro.jpg"
   },
   "source": {
     "provider": "imgflip",
     "template_id": "134797956",
     "page_url": "https://imgflip.com/memetemplate/134797956",
     "retrieved_at": "2026-10-23T07:34:14.895753+00:00",
-    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/memetemplates?page=3",
+      "listing_rank": 98,
+      "listing_page": 3,
+      "retrieved_at": "2026-10-23T08:43:13.932660+00:00",
+      "id_basis": "base36_thumbnail_filename",
+      "type_rank": 98,
+      "ranking_basis": "public_mixed_top_30_days_filtered_to_images"
+    }
   },
   "layout": {
     "status": "unreviewed",
@@ -25,6 +35,7 @@
     "box_count": 5,
     "captions_lifetime_estimate": 191500,
     "rank_30d": 99,
-    "list_type": "image"
+    "list_type": "image",
+    "public_listing_rank": 98
   }
 }

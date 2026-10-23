@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-363643880",
+  "name": "Sentenced to *blank*",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "363643880",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/memetemplate/363643880/Sentenced-to-blank",
+    "retrieved_at": "2026-10-23T08:45:34.822399+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/gif-templates?page=7",
+      "listing_rank": 268,
+      "listing_page": 7,
+      "retrieved_at": "2026-10-23T08:45:34.822399+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 268,
+      "ranking_basis": "public_popular_listing_unspecified_time_window"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/2/60i5ew.jpg",
+    "original_url_candidate": "https://i.imgflip.com/60i5ew.mp4",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 268
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

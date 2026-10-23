@@ -24,6 +24,7 @@ Use an existing ready card as a reference and submit a complete JSON object with
 - `media_type`: `image` or `video`. Imported motion templates may be MP4 despite the provider's `gif` category.
 - `source`: `provider`, optional `template_id`, `page_url`, `retrieved_at`, `rights`. Record provenance without treating the platform as the author or public download access as a license.
 - `asset`: optional `url`, library-relative `path`, and downloaded `sha256`.
+- Public-listing imports may have `preview_url` and `original_url_candidate` instead of a confirmed `url`. `download` checks the public detail page first. Candidate addresses and thumbnail sizes are not verified original media metadata.
 - `stats`: provider metadata; lifetime caption estimates do not measure monthly usage.
 - `status`: `draft` or `ready`. Only ready cards enter semantic search.
 - `annotation.summary`: concise usage description. `visual`: actual subjects, actions, and panel sequence. `mechanism`: how the humor works.
@@ -42,6 +43,6 @@ Use an existing ready card as a reference and submit a complete JSON object with
 5. Submit the complete card with `put`, then run `embed --offline` to refresh changed vectors. Direct file edits require `build` first.
 6. Try natural English requests that do not copy the template title. Judge whether an appropriate candidate appears among five, then inspect it. Do not tune descriptions solely to force a particular rank.
 
-The free sync makes separate image/gif API requests, preserves existing cards, and does not crawl the website. Downloads have a 30 MB limit. Respect server errors such as 403/429 rather than bypassing them.
+The free `sync-imgflip` command makes separate image/gif API requests and preserves existing cards. A separate bounded public-HTML collector extends the catalog beyond 100 per type; see [imgflip-collection.md](imgflip-collection.md) for its ranking limits, robots checks, rate limits, and evidence. Downloads have a 30 MB limit. Respect server errors such as 403/429 rather than bypassing them.
 
 Sources: [Imgflip API](https://imgflip.com/api), [terms](https://imgflip.com/terms).

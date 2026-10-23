@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-169798464",
+  "name": "black guy stopping",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "169798464",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/meme/169798464/black-guy-stopping",
+    "retrieved_at": "2026-10-23T08:45:04.722287+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/memetemplates?page=10",
+      "listing_rank": 396,
+      "listing_page": 10,
+      "retrieved_at": "2026-10-23T08:45:04.722287+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 371,
+      "ranking_basis": "public_mixed_top_30_days_filtered_to_images"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/4/2t3dc0.jpg",
+    "original_url_candidate": "https://i.imgflip.com/2t3dc0.jpg",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 396
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

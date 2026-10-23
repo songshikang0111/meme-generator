@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-296034307",
+  "name": "Guy in corner of party",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "296034307",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/meme/296034307/Guy-in-corner-of-party",
+    "retrieved_at": "2026-10-23T08:43:22.737807+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/memetemplates?page=6",
+      "listing_rank": 220,
+      "listing_page": 6,
+      "retrieved_at": "2026-10-23T08:43:22.737807+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 210,
+      "ranking_basis": "public_mixed_top_30_days_filtered_to_images"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/4/4w91j7.jpg",
+    "original_url_candidate": "https://i.imgflip.com/4w91j7.jpg",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 220
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

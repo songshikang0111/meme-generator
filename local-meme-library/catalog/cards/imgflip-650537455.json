@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-650537455",
+  "name": "skeleton hell book",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "650537455",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/memetemplate/650537455/skeleton-hell-book",
+    "retrieved_at": "2026-10-23T08:45:46.740670+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/gif-templates?page=11",
+      "listing_rank": 418,
+      "listing_page": 11,
+      "retrieved_at": "2026-10-23T08:45:46.740670+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 418,
+      "ranking_basis": "public_popular_listing_unspecified_time_window"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/2/arb9wv.jpg",
+    "original_url_candidate": "https://i.imgflip.com/arb9wv.mp4",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 418
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

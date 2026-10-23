@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-133459494",
+  "name": "Now That’s What I Call",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "133459494",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/meme/133459494/Now-Thats-What-I-Call",
+    "retrieved_at": "2026-10-23T08:45:10.640933+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/memetemplates?page=12",
+      "listing_rank": 463,
+      "listing_page": 12,
+      "retrieved_at": "2026-10-23T08:45:10.640933+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 430,
+      "ranking_basis": "public_mixed_top_30_days_filtered_to_images"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/4/27gi06.jpg",
+    "original_url_candidate": "https://i.imgflip.com/27gi06.jpg",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 463
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

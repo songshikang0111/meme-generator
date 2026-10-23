@@ -6,7 +6,8 @@
   "asset": {
     "path": "assets/imgflip-222516354.mp4",
     "sha256": "514679004f11f18fd07c7a3c1c22189593fb2a04ef53aba8c2399611e3d4d7a1",
-    "url": "https://i.imgflip.com/3ohapu.mp4"
+    "url": "https://i.imgflip.com/3ohapu.mp4",
+    "preview_url": "https://i.imgflip.com/2/3ohapu.jpg"
   },
   "id": "imgflip-222516354",
   "layout": {
@@ -22,7 +23,16 @@
     "provider": "imgflip",
     "retrieved_at": "2026-10-23T07:34:16.979199+00:00",
     "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
-    "template_id": "222516354"
+    "template_id": "222516354",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/gif-templates",
+      "listing_rank": 1,
+      "listing_page": 1,
+      "retrieved_at": "2026-10-23T08:45:17.052648+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 1,
+      "ranking_basis": "public_popular_listing_unspecified_time_window"
+    }
   },
   "stats": {
     "box_count": 1,
@@ -30,7 +40,8 @@
     "height": 360,
     "list_type": "gif",
     "rank_30d": 1,
-    "width": 360
+    "width": 360,
+    "public_listing_rank": 1
   },
   "status": "ready",
   "annotation": {

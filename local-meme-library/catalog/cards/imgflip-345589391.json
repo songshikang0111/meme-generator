@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-345589391",
+  "name": "Spongebob's whisper",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "345589391",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/memetemplate/345589391/Spongebobs-whisper",
+    "retrieved_at": "2026-10-23T08:45:25.866738+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/gif-templates?page=4",
+      "listing_rank": 148,
+      "listing_page": 4,
+      "retrieved_at": "2026-10-23T08:45:25.866738+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 148,
+      "ranking_basis": "public_popular_listing_unspecified_time_window"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/2/5pr6hb.jpg",
+    "original_url_candidate": "https://i.imgflip.com/5pr6hb.mp4",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 148
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

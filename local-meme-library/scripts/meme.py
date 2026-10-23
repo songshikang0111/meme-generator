@@ -467,8 +467,9 @@ def sync_imgflip(library, kind):
                                   'page_url': 'https://imgflip.com/memetemplate/' + str(item['id']),
                                   'retrieved_at': datetime.now(timezone.utc).isoformat(),
                                   'rights': card['source'].get('rights') or 'Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.'})
-            card['stats'] = {'width': item['width'], 'height': item['height'], 'box_count': item['box_count'],
-                             'captions_lifetime_estimate': item.get('captions'), 'rank_30d': rank, 'list_type': media}
+            card.setdefault('stats', {}).update({'width': item['width'], 'height': item['height'], 'box_count': item['box_count'],
+                             'captions_lifetime_estimate': item.get('captions'), 'rank_30d': rank, 'list_type': media})
+            card['asset'].update({'url_status': 'provided_by_public_api'})
             atomic_json(path, valid(card))
             total += 1
     return {'received': total, 'new': added, **build(library)}
@@ -477,11 +478,19 @@ def sync_imgflip(library, kind):
 def download(library, identifier):
     card = get_card(library, identifier)
     url = card['asset'].get('url')
+    resolved = False
+    if not url and card['source']['provider'] == 'imgflip':
+        card = resolve_imgflip_asset(card)
+        url = card['asset']['url']
+        resolved = True
     if not url:
         raise ValueError('Asset has no remote URL')
     ext = Path(urllib.parse.urlsplit(url).path).suffix.lower()
     if ext not in ('.jpg', '.jpeg', '.png', '.webp', '.gif', '.mp4'):
         raise ValueError('Unsupported asset extension')
+    if resolved:
+        import time
+        time.sleep(3)
     body, content_type = request(url)
     if not content_type.startswith(('image/', 'video/')):
         raise ValueError('Server did not return image/video content: ' + content_type)
@@ -499,6 +508,62 @@ def download(library, identifier):
     card['asset'].update({'path': relative, 'sha256': hashlib.sha256(body).hexdigest()})
     put(library, card)
     return {'id': identifier, 'path': str(target), 'bytes': len(body)}
+
+
+def parse_imgflip_detail(html, media_type):
+    """Read the explicit source-media element, never a poster or guessed URL."""
+    from html.parser import HTMLParser
+
+    class DetailParser(HTMLParser):
+        def __init__(self):
+            super().__init__()
+            self.video = False
+            self.sources = []
+            self.dimensions = {}
+
+        def handle_starttag(self, tag, attrs):
+            attrs = dict(attrs)
+            image = tag == 'img' and attrs.get('id') == 'mtm-img' and media_type == 'image'
+            if tag == 'video' and attrs.get('id') == 'mtm-video' and media_type == 'video':
+                self.video = True
+            if image or (tag == 'video' and self.video):
+                for key in ('width', 'height'):
+                    if attrs.get(key, '').isdigit():
+                        self.dimensions[key] = int(attrs[key])
+            if image or (tag == 'source' and self.video and attrs.get('type') == 'video/mp4'):
+                if attrs.get('src'): self.sources.append(urllib.parse.urljoin('https://imgflip.com', attrs['src']))
+
+        def handle_endtag(self, tag):
+            if tag == 'video': self.video = False
+
+    parser = DetailParser()
+    parser.feed(html)
+    if len(set(parser.sources)) != 1:
+        raise ValueError('Detail page has no unambiguous original media element')
+    url = parser.sources[0]
+    parts = urllib.parse.urlsplit(url)
+    suffix = r'mp4' if media_type == 'video' else r'jpg|jpeg|png|webp|gif'
+    if parts.scheme != 'https' or parts.netloc != 'i.imgflip.com' or not re.fullmatch(r'/[a-z0-9]+\.(' + suffix + ')', parts.path) or parts.query:
+        raise ValueError('Unexpected source-media URL on template detail page')
+    return url, parser.dimensions
+
+
+def resolve_imgflip_asset(card):
+    from imgflip_http import BASE, GentleClient
+    identifier = card['source'].get('template_id', '')
+    if not re.fullmatch(r'[0-9]+', identifier):
+        raise ValueError('Missing numeric Imgflip template ID')
+    client = GentleClient(ROOT / '.runtime' / 'imgflip-listings', detail_template_id=identifier)
+    client.load_robots()
+    response = client.fetch(BASE + '/memetemplate/' + identifier)
+    url, dimensions = parse_imgflip_detail(response['text'], card['media_type'])
+    code = urllib.parse.urlsplit(url).path.rsplit('/', 1)[-1].split('.')[0]
+    if str(int(code, 36)) != identifier:
+        raise ValueError('Detail source URL does not match the requested template ID')
+    card['asset'].update({'url': url, 'url_status': 'confirmed_on_public_detail_page'})
+    card['source']['media_resolution'] = {k: response[k] for k in ('url', 'retrieved_at', 'sha256')}
+    card.setdefault('stats', {}).update(dimensions)
+    return card
 
 
 def wrap_text(draw, text, font, width, stroke):

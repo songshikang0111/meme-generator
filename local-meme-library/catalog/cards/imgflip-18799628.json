@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "asset": {
+    "original_url_candidate": "https://i.imgflip.com/b6xvw.jpg",
+    "preview_url": "https://i.imgflip.com/4/b6xvw.jpg",
+    "url_status": "confirmed_on_public_detail_page",
+    "url": "https://i.imgflip.com/b6xvw.jpg",
+    "path": "assets/imgflip-18799628.jpg",
+    "sha256": "f4a08037cf37f4a76cfaee4d30630b15f345e6af419449e0c32f4b666afb14ee"
+  },
+  "id": "imgflip-18799628",
+  "language": "en",
+  "layout": {
+    "boxes": [],
+    "status": "unreviewed"
+  },
+  "media_type": "image",
+  "name": "Blank White Template",
+  "schema_version": 1,
+  "source": {
+    "page_url": "https://imgflip.com/meme/18799628/Blank-White-Template",
+    "provider": "imgflip",
+    "public_listing": {
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "listing_page": 4,
+      "listing_rank": 126,
+      "listing_url": "https://imgflip.com/memetemplates?page=4",
+      "ranking_basis": "public_mixed_top_30_days_filtered_to_images",
+      "retrieved_at": "2026-10-23T08:43:16.674011+00:00",
+      "type_rank": 125
+    },
+    "retrieved_at": "2026-10-23T08:43:16.674011+00:00",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "template_id": "18799628",
+    "media_resolution": {
+      "url": "https://imgflip.com/memetemplate/18799628",
+      "retrieved_at": "2026-10-23T08:47:22.613229+00:00",
+      "sha256": "767f94129618890692913c14d320389c58ed0bcc2735cb63b34ec7d7802219de"
+    }
+  },
+  "stats": {
+    "public_listing_rank": 126,
+    "width": 480,
+    "height": 360
+  },
+  "status": "draft"
+}

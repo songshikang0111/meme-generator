@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-201733654",
+  "name": "Thumbs up",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "201733654",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/memetemplate/201733654/Thumbs-up",
+    "retrieved_at": "2026-10-23T08:45:40.825679+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/gif-templates?page=9",
+      "listing_rank": 341,
+      "listing_page": 9,
+      "retrieved_at": "2026-10-23T08:45:40.825679+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 341,
+      "ranking_basis": "public_popular_listing_unspecified_time_window"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/2/3c3uom.jpg",
+    "original_url_candidate": "https://i.imgflip.com/3c3uom.mp4",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 341
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

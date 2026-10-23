@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-441875455",
+  "name": "Cooking man",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "441875455",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/memetemplate/441875455/Cooking-man",
+    "retrieved_at": "2026-10-23T08:45:43.750672+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/gif-templates?page=10",
+      "listing_rank": 378,
+      "listing_page": 10,
+      "retrieved_at": "2026-10-23T08:45:43.750672+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 378,
+      "ranking_basis": "public_popular_listing_unspecified_time_window"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/2/7b2xa7.jpg",
+    "original_url_candidate": "https://i.imgflip.com/7b2xa7.mp4",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 378
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

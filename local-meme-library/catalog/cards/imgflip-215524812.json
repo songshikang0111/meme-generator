@@ -6,14 +6,24 @@
   "status": "draft",
   "media_type": "video",
   "asset": {
-    "url": "https://i.imgflip.com/3kbg0c.mp4"
+    "url": "https://i.imgflip.com/3kbg0c.mp4",
+    "preview_url": "https://i.imgflip.com/2/3kbg0c.jpg"
   },
   "source": {
     "provider": "imgflip",
     "template_id": "215524812",
     "page_url": "https://imgflip.com/memetemplate/215524812",
     "retrieved_at": "2026-10-23T07:34:16.988996+00:00",
-    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained."
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/gif-templates?page=2",
+      "listing_rank": 76,
+      "listing_page": 2,
+      "retrieved_at": "2026-10-23T08:45:19.958502+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 76,
+      "ranking_basis": "public_popular_listing_unspecified_time_window"
+    }
   },
   "layout": {
     "status": "unreviewed",
@@ -25,6 +35,7 @@
     "box_count": 3,
     "captions_lifetime_estimate": 7000,
     "rank_30d": 71,
-    "list_type": "gif"
+    "list_type": "gif",
+    "public_listing_rank": 76
   }
 }

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-183518946",
+  "name": "Blank Transparent Square",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "183518946",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/meme/Blank-Transparent-Square",
+    "retrieved_at": "2026-10-23T08:43:25.661822+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/memetemplates?page=7",
+      "listing_rank": 253,
+      "listing_page": 7,
+      "retrieved_at": "2026-10-23T08:43:25.661822+00:00",
+      "id_basis": "base36_thumbnail_filename",
+      "type_rank": 241,
+      "ranking_basis": "public_mixed_top_30_days_filtered_to_images"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/4/319g4i.png",
+    "original_url_candidate": "https://i.imgflip.com/319g4i.png",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 253
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-1202623",
+  "name": "Keep Calm And Carry On Red",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "1202623",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/meme/Keep-Calm-And-Carry-On-Red",
+    "retrieved_at": "2026-10-23T08:43:28.612540+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/memetemplates?page=8",
+      "listing_rank": 294,
+      "listing_page": 8,
+      "retrieved_at": "2026-10-23T08:43:28.612540+00:00",
+      "id_basis": "base36_thumbnail_filename",
+      "type_rank": 281,
+      "ranking_basis": "public_mixed_top_30_days_filtered_to_images"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/4/pry7.jpg",
+    "original_url_candidate": "https://i.imgflip.com/pry7.jpg",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 294
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

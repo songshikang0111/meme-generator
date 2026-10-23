@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-376281327",
+  "name": "Vince McMahon walking",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "376281327",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/memetemplate/376281327/Vince-McMahon-walking",
+    "retrieved_at": "2026-10-23T08:45:40.825679+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/gif-templates?page=9",
+      "listing_rank": 348,
+      "listing_page": 9,
+      "retrieved_at": "2026-10-23T08:45:40.825679+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 348,
+      "ranking_basis": "public_popular_listing_unspecified_time_window"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/2/6810j3.jpg",
+    "original_url_candidate": "https://i.imgflip.com/6810j3.mp4",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 348
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

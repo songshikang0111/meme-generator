@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-403728662",
+  "name": "Sad wojak at window",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "403728662",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/memetemplate/403728662/Sad-wojak-at-window",
+    "retrieved_at": "2026-10-23T08:45:43.750672+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/gif-templates?page=10",
+      "listing_rank": 364,
+      "listing_page": 10,
+      "retrieved_at": "2026-10-23T08:45:43.750672+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 364,
+      "ranking_basis": "public_popular_listing_unspecified_time_window"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/2/6odb12.jpg",
+    "original_url_candidate": "https://i.imgflip.com/6odb12.mp4",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 364
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

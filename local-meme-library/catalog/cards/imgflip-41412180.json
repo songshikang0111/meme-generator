@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-41412180",
+  "name": "No Soup For You",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "41412180",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/meme/41412180/No-Soup-For-You",
+    "retrieved_at": "2026-10-23T08:45:07.717941+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/memetemplates?page=11",
+      "listing_rank": 407,
+      "listing_page": 11,
+      "retrieved_at": "2026-10-23T08:45:07.717941+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 381,
+      "ranking_basis": "public_mixed_top_30_days_filtered_to_images"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/4/onluc.jpg",
+    "original_url_candidate": "https://i.imgflip.com/onluc.jpg",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 407
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-1367068",
+  "name": "I Should Buy A Boat Cat",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "1367068",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/meme/I-Should-Buy-A-Boat-Cat",
+    "retrieved_at": "2026-10-23T08:43:16.674011+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/memetemplates?page=4",
+      "listing_rank": 135,
+      "listing_page": 4,
+      "retrieved_at": "2026-10-23T08:43:16.674011+00:00",
+      "id_basis": "base36_thumbnail_filename",
+      "type_rank": 134,
+      "ranking_basis": "public_mixed_top_30_days_filtered_to_images"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/4/tau4.jpg",
+    "original_url_candidate": "https://i.imgflip.com/tau4.jpg",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 135
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

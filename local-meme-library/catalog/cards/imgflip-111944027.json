@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-111944027",
+  "name": "What's My Purpose - Butter Robot",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "111944027",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/meme/111944027/Whats-My-Purpose---Butter-Robot",
+    "retrieved_at": "2026-10-23T08:43:28.612540+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/memetemplates?page=8",
+      "listing_rank": 279,
+      "listing_page": 8,
+      "retrieved_at": "2026-10-23T08:43:28.612540+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 266,
+      "ranking_basis": "public_mixed_top_30_days_filtered_to_images"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/4/1unckb.jpg",
+    "original_url_candidate": "https://i.imgflip.com/1unckb.jpg",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 279
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-466797493",
+  "name": "weekend halftime show maze searching",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "video",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "466797493",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/memetemplate/466797493/weekend-halftime-show-maze-searching",
+    "retrieved_at": "2026-10-23T08:45:37.748092+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/gif-templates?page=8",
+      "listing_rank": 309,
+      "listing_page": 8,
+      "retrieved_at": "2026-10-23T08:45:37.748092+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 309,
+      "ranking_basis": "public_popular_listing_unspecified_time_window"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/2/7px391.jpg",
+    "original_url_candidate": "https://i.imgflip.com/7px391.mp4",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 309
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-176409418",
+  "name": "Guy recording a fight",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "176409418",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/meme/176409418/Guy-recording-a-fight",
+    "retrieved_at": "2026-10-23T08:43:22.737807+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/memetemplates?page=6",
+      "listing_rank": 222,
+      "listing_page": 6,
+      "retrieved_at": "2026-10-23T08:43:22.737807+00:00",
+      "id_basis": "explicit_page_link_and_thumbnail",
+      "type_rank": 212,
+      "ranking_basis": "public_mixed_top_30_days_filtered_to_images"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/4/2x12dm.jpg",
+    "original_url_candidate": "https://i.imgflip.com/2x12dm.jpg",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 222
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}

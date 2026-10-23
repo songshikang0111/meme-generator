@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "imgflip-175540452",
+  "name": "Unsettled Tom",
+  "language": "en",
+  "aliases": [],
+  "status": "draft",
+  "media_type": "image",
+  "source": {
+    "provider": "imgflip",
+    "template_id": "175540452",
+    "rights": "Third-party user-uploaded media; rights remain with the respective rights holders. No separate redistribution license has been obtained.",
+    "page_url": "https://imgflip.com/meme/Unsettled-Tom",
+    "retrieved_at": "2026-10-23T08:43:22.737807+00:00",
+    "public_listing": {
+      "listing_url": "https://imgflip.com/memetemplates?page=6",
+      "listing_rank": 208,
+      "listing_page": 6,
+      "retrieved_at": "2026-10-23T08:43:22.737807+00:00",
+      "id_basis": "base36_thumbnail_filename",
+      "type_rank": 199,
+      "ranking_basis": "public_mixed_top_30_days_filtered_to_images"
+    }
+  },
+  "asset": {
+    "preview_url": "https://i.imgflip.com/4/2wifvo.jpg",
+    "original_url_candidate": "https://i.imgflip.com/2wifvo.jpg",
+    "url_status": "candidate_requires_detail_page_verification"
+  },
+  "stats": {
+    "public_listing_rank": 208
+  },
+  "layout": {
+    "status": "unreviewed",
+    "boxes": []
+  }
+}
